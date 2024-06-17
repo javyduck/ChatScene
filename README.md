@@ -1,4 +1,4 @@
-<h3 align="center"><a href="https://arxiv.org/abs/2405.14062" style="color:#9C276A">
+<h2 align="center"><a href="https://arxiv.org/abs/2405.14062" style="color:#903168">
 ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles</a></h3>
 
 ## Installation
