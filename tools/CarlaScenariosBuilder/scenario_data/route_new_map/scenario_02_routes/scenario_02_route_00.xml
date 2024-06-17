@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+  <route id="0" town="Town_Safebench_Light">
+    <weather cloudiness="0" precipitation="0" precipitation_deposits="0" wind_intensity="0" sun_azimuth_angle="0" sun_altitude_angle="70" fog_density="0" fog_distance="0" wetness="0" />
+    <waypoint pitch="360.00" roll="0.00" x="1.75" y="62.50" yaw="270.00" z="0.29" />
+    <waypoint pitch="360.00" roll="0.00" x="1.75" y="22.50" yaw="270.00" z="0.29" />
+    <waypoint pitch="360.00" roll="0.00" x="-17.50" y="-1.75" yaw="180.00" z="0.15" />
+    <waypoint pitch="360.00" roll="0.00" x="-57.50" y="-1.75" yaw="180.00" z="0.15" />
+  </route>
+</routes>

@@ -1,0 +1,330 @@
+{
+    "available_scenarios": [
+        {
+            "Town_Safebench_Light": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.00",
+                                        "x": "-18.50",
+                                        "y": "1.75",
+                                        "yaw": "-0.00",
+                                        "z": "0.15"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "1.75",
+                                "y": "32.50",
+                                "yaw": "270.00",
+                                "z": "0.29"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.00",
+                                        "x": "198.25",
+                                        "y": "-18.50",
+                                        "yaw": "90.00",
+                                        "z": "0.29"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "166.50",
+                                "y": "1.75",
+                                "yaw": "-0.00",
+                                "z": "0.15"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "360.00",
+                                        "x": "218.50",
+                                        "y": "198.25",
+                                        "yaw": "180.00",
+                                        "z": "0.15"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "198.25",
+                                "y": "166.50",
+                                "yaw": "90.00",
+                                "z": "0.29"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "360.00",
+                                        "x": "1.75",
+                                        "y": "218.50",
+                                        "yaw": "270.00",
+                                        "z": "0.29"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "32.50",
+                                "y": "198.25",
+                                "yaw": "180.00",
+                                "z": "0.15"
+                            }
+                        }
+                    ],
+                    "scenario_name": "OppositeVehicleRunningRedLight"
+                }
+            ],
+            "Town01": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "OppositeVehicleRunningRedLight"
+                }
+            ],
+            "Town02": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "OppositeVehicleRunningRedLight"
+                }
+            ],
+            "Town03": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "OppositeVehicleRunningRedLight"
+                }
+            ],
+            "Town04": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "OppositeVehicleRunningRedLight"
+                }
+            ],
+            "Town05": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-145.2",
+                                        "y": "-87.88",
+                                        "yaw": "0.586456",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -125.2,
+                                "y": -67.45,
+                                "yaw": 270.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-109.2",
+                                        "y": "-83.88",
+                                        "yaw": "180.586456",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -129.2,
+                                "y": -103.88,
+                                "yaw": 90.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-144.87",
+                                        "y": "7.42",
+                                        "yaw": "0.586456",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -124.87,
+                                "y": 35.44,
+                                "yaw": 270.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-125.66",
+                                        "y": "20.69",
+                                        "yaw": "270.454376",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -93.86,
+                                "y": 0.69,
+                                "yaw": 180.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-108.53",
+                                        "y": "0.0",
+                                        "yaw": "180.132767",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -128.53,
+                                "y": -32.59,
+                                "yaw": 90.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-131.38",
+                                        "y": "-18.80",
+                                        "yaw": "90.754395",
+                                        "z": "0.99"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -159.21,
+                                "y": 2.86,
+                                "yaw": 0.0,
+                                "z": 0.99
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "135.9",
+                                        "y": "2.29",
+                                        "yaw": "358.888824",
+                                        "z": "1.1"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": 155.9,
+                                "y": 25.76,
+                                "yaw": 268.0,
+                                "z": 1.1
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-30.85",
+                                        "y": "87.62",
+                                        "yaw": "180.132767",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -50.85,
+                                "y": 56.8,
+                                "yaw": 90.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-50.91",
+                                        "y": "71.45",
+                                        "yaw": "90.754395",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -83.87,
+                                "y": 91.45,
+                                "yaw": 0.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-46.84",
+                                        "y": "107.98",
+                                        "yaw": "270.0",
+                                        "z": "0.99"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -16.39,
+                                "y": 87.98,
+                                "yaw": 180.0,
+                                "z": 0.99
+                            }
+                        }
+                    ],
+                    "scenario_name": "OppositeVehicleRunningRedLight"
+                }
+            ],
+            "Town06": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "OppositeVehicleRunningRedLight"
+                }
+            ]
+        }
+    ]
+}

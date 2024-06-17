@@ -1,0 +1,61 @@
+{
+    "available_scenarios": [
+        {
+            "Town_Safebench_Heavy": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "205.25",
+                                "y": "235.393311",
+                                "yaw": "-90.00",
+                                "z": "0.0"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "5.25",
+                                "y": "235.393311",
+                                "yaw": "-90.00",
+                                "z": "0.0"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "194.75",
+                                "y": "-35.00000",
+                                "yaw": "90.00",
+                                "z": "0.0"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "-5.25",
+                                "y": "-35.000",
+                                "yaw": "90.00",
+                                "z": "0.0"
+                            }
+                        }
+                    ],
+                    "scenario_type": "Detection_StopSign"
+                }
+            ]
+        }
+    ]
+}

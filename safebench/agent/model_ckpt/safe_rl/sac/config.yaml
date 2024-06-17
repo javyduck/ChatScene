@@ -1,0 +1,35 @@
+seed: 0
+exp_name: sac_epoch_500
+policy: sac
+timeout_steps: 80
+data_dir: carla_cost_20
+episode_rerun_num: 100
+sample_episode_num: 10
+evaluate_episode_num: 1
+pretrain_dir: null
+continue_from_epoch: 0
+sac:
+    num_qc: 1
+    cost_limit: 20
+    use_cost_decay: false
+    cost_start: 100
+    cost_end: 5
+    decay_epoch: 200
+    KP: 0.1
+    KI: 0.003
+    KD: 0.001
+    steps_per_epoch: 2000
+    actor_lr: 0.001
+    critic_lr: 0.001
+    ac_model: mlp
+    hidden_sizes:
+    - 256
+    - 256
+    alpha: 0.01
+    gamma: 0.99
+    polyak: 0.995
+    num_q: 2
+    worker_config:
+        warmup_steps: 600
+        batch_size: 100
+        buffer_size: 20000

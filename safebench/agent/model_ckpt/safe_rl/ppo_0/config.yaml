@@ -1,0 +1,32 @@
+seed: 5
+exp_name: ppo_epoch_1200_obs_type_0
+policy: ppo
+timeout_steps: 80
+data_dir: carla_cost_20
+episode_rerun_num: 100
+sample_episode_num: 20
+evaluate_episode_num: 1
+pretrain_dir: data/carla_cost_20/ppo_epoch_1200_obs_type_0/ppo_epoch_1200_obs_type_0_s4/
+continue_from_epoch: 421
+obs_type: 0
+ppo:
+    cost_limit: 5
+    KP: 0.1
+    KI: 0.003
+    KD: 0.001
+    actor_lr: 0.0003
+    critic_lr: 0.001
+    ac_model: mlp
+    hidden_sizes:
+    - 256
+    - 256
+    clip_ratio: 0.2
+    target_kl: 0.01
+    train_actor_iters: 80
+    train_critic_iters: 80
+    gamma: 0.99
+    worker_config:
+        interact_steps: 1000
+        buffer: OnPolicyBuffer
+        gamma: 0.99
+        lam: 0.97

@@ -1,0 +1,207 @@
+policy_type: 'rl'
+obs_type: 0
+train_episode: 600
+eval_in_train_freq: 1
+buffer_capacity: 20000
+buffer_start_training: 1000
+save_freq: 1
+
+###################### env configs ######################
+# Maximum steps per episode, use this to terminate one episode if it takes too many steps.
+# This is a environment-specific parameter. Determine this carefully based on your gym env.
+# If this is -1, it will be based on the env._max_episode_steps
+timeout_steps: &TIMEOUT_STEPS 80
+seed: 0
+#mode: 'train'
+
+###################### runner configs ######################
+policy_name: "sac"
+epochs: 400
+exp_name: null
+# data dir to save the logger files
+data_dir: 'output'
+load_dir: 'safebench/agent/model_ckpt/adv_train/sac/lc'
+pretrain_dir: 'safebench/agent/model_ckpt/safe_rl/sac/model_save/model.pt'
+load_iteration: null
+
+###################### worker configs ######################
+verbose: &VERBOSE True
+sample_episode_num: &SAMPLE_EPISODE_NUM 20
+episode_rerun_num: &EPISODE_RERUN_NUM 100
+evaluate_episode_num: &EVALUATE_EPISODE_NUM 10
+
+###################### common policy configs #############
+actor_lr: &ACTOR_LR 0.0001
+critic_lr: &CRITIC_LR 0.0001
+ac_model: &AC_MODEL "mlp"
+hidden_sizes: &HIDDEN_SIZES [256, 256]
+gamma: &GAMMA 0.99
+
+ego_action_limit: 3.0
+
+###################### off-policy algos common configs #############
+warmup_steps: &WARMUP_STEPS 500 # 4000
+polyak: &POLYAK 0.995
+num_q: &NUM_Q 2
+batch_size: &BATCH_SIZE 512
+buffer_size: &BUFFER_SIZE 50000
+
+###################### safe RL algos common configs #############
+cost_limit: &COST_LIM 20
+
+use_cost_decay: &USE_DECAY False
+cost_start: &COST_START 100
+cost_end: &COST_END 5
+decay_epoch: &DECAY_EPOCH 200
+
+KP: &K_P 0.1
+KI: &K_I 0.003
+KD: &K_D 0.001
+
+# PPO Lagrangian policy config
+ppo_lag: &PPO
+    cost_limit: 5
+    KP: *K_P
+    KI: *K_I
+    KD: *K_D
+    actor_lr: 0.0003
+    critic_lr: *CRITIC_LR
+    ac_model: *AC_MODEL
+    # actor critic model_config:
+    hidden_sizes: *HIDDEN_SIZES
+    # PPO specific config
+    clip_ratio: 0.2
+    target_kl: 0.01
+    train_actor_iters: 80
+    train_critic_iters: 80
+    gamma: &PPO_GAMMA 0.99
+    worker_config:
+        # Samples to collect per worker.work(). Used to evaluate the current policy
+        # Increasing this will reduce the training variance, but takes more time to converge.
+        timeout_steps: *TIMEOUT_STEPS
+        interact_steps: 100
+        buffer: "OnPolicyBuffer"
+        gamma: *PPO_GAMMA
+        lam: 0.97
+        verbose: *VERBOSE
+
+ppo: *PPO
+
+# SAC Lagrangian config
+sac_lag: &SAC
+    ############# used for safe rl ##############
+    num_qc: 1
+    cost_limit: *COST_LIM
+    use_cost_decay: *USE_DECAY
+    cost_start: *COST_START
+    cost_end: *COST_END
+    decay_epoch: *DECAY_EPOCH
+    KP: *K_P
+    KI: *K_I
+    KD: *K_D
+    #############################################
+    steps_per_epoch: 2000
+    actor_lr: *ACTOR_LR
+    critic_lr: *CRITIC_LR
+    ac_model: *AC_MODEL
+    # actor critic model_config:
+    hidden_sizes: *HIDDEN_SIZES
+    # Entropy regularization coefficient.
+    alpha: 0.01
+    gamma: *GAMMA
+    polyak: *POLYAK
+    num_q: *NUM_Q
+    worker_config:
+        # Collect some random policy data before the overall training begin
+        timeout_steps: *TIMEOUT_STEPS
+        warmup_steps: *WARMUP_STEPS
+        batch_size: *BATCH_SIZE
+        buffer_size: *BUFFER_SIZE
+        sample_episode_num: *SAMPLE_EPISODE_NUM
+        episode_rerun_num: *EPISODE_RERUN_NUM
+        evaluate_episode_num: *EVALUATE_EPISODE_NUM
+        verbose: *VERBOSE
+
+# SAC policy config
+sac: *SAC
+
+# TD3 Lagrangian config
+td3_lag: &TD3
+    ############# used for safe rl ##############
+    num_qc: 1
+    cost_limit: *COST_LIM
+    use_cost_decay: *USE_DECAY
+    cost_start: *COST_START
+    cost_end: *COST_END
+    decay_epoch: *DECAY_EPOCH
+    KP: *K_P
+    KI: *K_I
+    KD: *K_D
+    #############################################
+    steps_per_epoch: 2000
+    actor_lr: *ACTOR_LR
+    critic_lr: *CRITIC_LR
+    ac_model: *AC_MODEL
+    # actor critic model_config:
+    hidden_sizes: *HIDDEN_SIZES
+
+    act_noise: 0.1
+    target_noise: 0.2
+    noise_clip: 0.5
+    policy_delay: 2
+    gamma: *GAMMA
+    polyak: *POLYAK
+    num_q: *NUM_Q
+    worker_config:
+        # Collect some random policy data before the overall training begin
+        timeout_steps: *TIMEOUT_STEPS
+        warmup_steps: *WARMUP_STEPS
+        batch_size: *BATCH_SIZE
+        buffer_size: *BUFFER_SIZE
+        sample_episode_num: *SAMPLE_EPISODE_NUM
+        episode_rerun_num: *EPISODE_RERUN_NUM
+        evaluate_episode_num: *EVALUATE_EPISODE_NUM
+        verbose: *VERBOSE
+
+# TD3 policy config
+td3: *TD3
+
+# DDPG Lagrangian config
+ddpg_lag: &DDPG
+    ############# used for safe rl ##############
+    num_qc: 1
+    cost_limit: *COST_LIM
+    use_cost_decay: *USE_DECAY
+    cost_start: *COST_START
+    cost_end: *COST_END
+    decay_epoch: *DECAY_EPOCH
+    KP: *K_P
+    KI: *K_I
+    KD: *K_D
+    #############################################
+    steps_per_epoch: 2000 # deprecated with the new runner
+    actor_lr: 0.0003
+    critic_lr: *CRITIC_LR
+    ac_model: *AC_MODEL
+    # actor critic model_config:
+    hidden_sizes: *HIDDEN_SIZES
+
+    act_noise: 0.1
+    gamma: 0.99
+    polyak: *POLYAK
+    num_q: 1
+    worker_config:
+        # Collect some random policy data before the overall training begin
+        timeout_steps: *TIMEOUT_STEPS
+        warmup_steps: *WARMUP_STEPS
+        batch_size: *BATCH_SIZE
+        buffer_size: *BUFFER_SIZE
+        sample_episode_num: *SAMPLE_EPISODE_NUM
+        episode_rerun_num: *EPISODE_RERUN_NUM
+        evaluate_episode_num: *EVALUATE_EPISODE_NUM
+        verbose: *VERBOSE
+
+# DDPG policy config
+ddpg: *DDPG
+
+

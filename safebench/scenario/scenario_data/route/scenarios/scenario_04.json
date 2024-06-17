@@ -1,0 +1,189 @@
+{
+    "available_scenarios": [
+        {
+            "Town_Safebench_Light": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "72.50",
+                                "y": "1.75",
+                                "yaw": "-0.00",
+                                "z": "0.15"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "198.25",
+                                "y": "72.50",
+                                "yaw": "90.00",
+                                "z": "0.29"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "128.50",
+                                "y": "198.25",
+                                "yaw": "180.00",
+                                "z": "0.15"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "1.75",
+                                "y": "128.50",
+                                "yaw": "270.00",
+                                "z": "0.29"
+                            }
+                        }
+                    ],
+                    "scenario_name": "ManeuverOppositeDirection"
+                }
+            ],
+            "Town01": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "319.64",
+                                "y": "-2.20",
+                                "yaw": "180",
+                                "z": "1.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "107.98",
+                                "y": "330.64",
+                                "yaw": "0",
+                                "z": "1.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "2.52",
+                                "y": "316.80",
+                                "yaw": "270",
+                                "z": "1.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "170.84",
+                                "y": "59.52",
+                                "yaw": "0",
+                                "z": "1.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "319.79",
+                                "y": "129.41",
+                                "yaw": "180",
+                                "z": "1.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "-1.61",
+                                "y": "10.73",
+                                "yaw": "89",
+                                "z": "1.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "392.17",
+                                "y": "165.10",
+                                "yaw": "89",
+                                "z": "1.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "396.30",
+                                "y": "165.30",
+                                "yaw": "270",
+                                "z": "1.0"
+                            }
+                        }
+                    ],
+                    "scenario_name": "ManeuverOppositeDirection"
+                }
+            ],
+            "Town02": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "180.93",
+                                "y": "105.31",
+                                "yaw": "180",
+                                "z": "1.22"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": "7.63",
+                                "y": "109.91",
+                                "yaw": "359",
+                                "z": "1.22"
+                            }
+                        }
+                    ],
+                    "scenario_name": "ManeuverOppositeDirection"
+                }
+            ],
+            "Town03": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "ManeuverOppositeDirection"
+                }
+            ],
+            "Town04": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "ManeuverOppositeDirection"
+                }
+            ],
+            "Town05": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "ManeuverOppositeDirection"
+                }
+            ],
+            "Town06": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "ManeuverOppositeDirection"
+                }
+            ]
+        }
+    ]
+}

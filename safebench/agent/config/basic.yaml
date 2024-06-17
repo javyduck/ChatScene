@@ -1,0 +1,24 @@
+policy_type: 'basic'
+model_path: ''
+model_id: 0
+results_folder_path: ''
+obs_type: 0
+
+target_speed: 30
+
+# parameters for PID
+dt: 0.5
+lateral_KP: 5.0
+lateral_KI: 0.0
+lateral_KD: 0.0
+longitudinal_KP: 5.0
+longitudinal_KI: 0.0
+longitudinal_KD: 0.0
+max_steering: 2.0
+max_throttle: 2.0
+
+train_episode: 2000
+eval_in_train_freq: 1
+save_freq: 10
+buffer_capacity: 10000
+buffer_start_training: 100

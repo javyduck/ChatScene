@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+   <route id="0" town="Town_Safebench_Heavy" region="2">>
+      <weather
+         cloudiness="0"
+         precipitation="0"
+         precipitation_deposits="0"
+         wind_intensity="0"
+         sun_azimuth_angle="0"
+         sun_altitude_angle="70"
+         fog_density="0"
+         fog_distance="0"
+         wetness="0"
+      />
+      <!-- <waypoint pitch="360.0" roll="0.0" x="194.75000000000000" y="-87.5000000000000" yaw="90.00000000000000" z="0.0" /> -->
+      <!-- <waypoint pitch="360.0" roll="0.0" x="194.75000000000000" y="-50.0000000000000" yaw="90.00000000000000" z="0.0" /> -->
+      <waypoint pitch="360.0" roll="0.0" x="194.75000000000000" y="-35.0000000000000" yaw="90.00000000000000" z="0.0" />
+      <!-- <waypoint pitch="360.0" roll="0.0" x="194.75000000000000" y="-22.5000000000000" yaw="90.00000000000000" z="0.0" /> -->
+      <waypoint pitch="360.0" roll="0.0" x="194.75000000000000" y="-15.0000000000000" yaw="90.00000000000000" z="0.0" />
+   </route>
+</routes>

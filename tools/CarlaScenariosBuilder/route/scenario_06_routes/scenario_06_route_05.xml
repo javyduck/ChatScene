@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+   <route id="0" town="Town02">
+      <weather
+         cloudiness="0"
+         precipitation="0"
+         precipitation_deposits="0"
+         wind_intensity="0"
+         sun_azimuth_angle="0"
+         sun_altitude_angle="70"
+         fog_density="0"
+         fog_distance="0"
+         wetness="0"
+      />
+      <waypoint pitch="0.0" roll="0.0" x="41.37" y="195.4" yaw="90" z="1.21" />
+      <waypoint pitch="0.0" roll="0.0" x="41.37" y="207.4" yaw="90" z="1.21" />
+      <waypoint pitch="0.0" roll="0.0" x="70.37" y="240.88" yaw="0" z="1.21" />
+   </route>
+</routes>

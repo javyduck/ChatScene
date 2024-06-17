@@ -1,0 +1,258 @@
+[
+  {
+    "data_id": 0,
+    "scenario_folder": "standard",
+    "scenario_id": 1,
+    "route_id": 0,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 1,
+    "scenario_folder": "standard",
+    "scenario_id": 1,
+    "route_id": 1,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 2,
+    "scenario_folder": "standard",
+    "scenario_id": 1,
+    "route_id": 2,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 3,
+    "scenario_folder": "standard",
+    "scenario_id": 1,
+    "route_id": 3,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 4,
+    "scenario_folder": "standard",
+    "scenario_id": 2,
+    "route_id": 0,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 5,
+    "scenario_folder": "standard",
+    "scenario_id": 2,
+    "route_id": 1,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 6,
+    "scenario_folder": "standard",
+    "scenario_id": 2,
+    "route_id": 2,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 7,
+    "scenario_folder": "standard",
+    "scenario_id": 2,
+    "route_id": 3,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 8,
+    "scenario_folder": "standard",
+    "scenario_id": 3,
+    "route_id": 0,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 9,
+    "scenario_folder": "standard",
+    "scenario_id": 3,
+    "route_id": 1,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 10,
+    "scenario_folder": "standard",
+    "scenario_id": 3,
+    "route_id": 2,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 11,
+    "scenario_folder": "standard",
+    "scenario_id": 3,
+    "route_id": 3,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 12,
+    "scenario_folder": "standard",
+    "scenario_id": 4,
+    "route_id": 0,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 13,
+    "scenario_folder": "standard",
+    "scenario_id": 4,
+    "route_id": 1,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 14,
+    "scenario_folder": "standard",
+    "scenario_id": 4,
+    "route_id": 2,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 15,
+    "scenario_folder": "standard",
+    "scenario_id": 4,
+    "route_id": 3,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 16,
+    "scenario_folder": "standard",
+    "scenario_id": 5,
+    "route_id": 0,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 17,
+    "scenario_folder": "standard",
+    "scenario_id": 5,
+    "route_id": 1,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 18,
+    "scenario_folder": "standard",
+    "scenario_id": 5,
+    "route_id": 2,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 19,
+    "scenario_folder": "standard",
+    "scenario_id": 5,
+    "route_id": 3,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 20,
+    "scenario_folder": "standard",
+    "scenario_id": 6,
+    "route_id": 0,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 21,
+    "scenario_folder": "standard",
+    "scenario_id": 6,
+    "route_id": 1,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 22,
+    "scenario_folder": "standard",
+    "scenario_id": 6,
+    "route_id": 2,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 23,
+    "scenario_folder": "standard",
+    "scenario_id": 6,
+    "route_id": 3,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 24,
+    "scenario_folder": "standard",
+    "scenario_id": 7,
+    "route_id": 0,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 25,
+    "scenario_folder": "standard",
+    "scenario_id": 7,
+    "route_id": 1,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 26,
+    "scenario_folder": "standard",
+    "scenario_id": 7,
+    "route_id": 2,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 27,
+    "scenario_folder": "standard",
+    "scenario_id": 7,
+    "route_id": 3,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 28,
+    "scenario_folder": "standard",
+    "scenario_id": 8,
+    "route_id": 0,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 29,
+    "scenario_folder": "standard",
+    "scenario_id": 8,
+    "route_id": 1,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 30,
+    "scenario_folder": "standard",
+    "scenario_id": 8,
+    "route_id": 2,
+    "risk_level": null,
+    "parameters": null
+  },
+  {
+    "data_id": 31,
+    "scenario_folder": "standard",
+    "scenario_id": 8,
+    "route_id": 3,
+    "risk_level": null,
+    "parameters": null
+  }
+]

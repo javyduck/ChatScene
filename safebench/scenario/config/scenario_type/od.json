@@ -1,0 +1,98 @@
+[
+    {
+        "data_id": 0,
+        "scenario_folder": "object_detection",
+        "scenario_id": 1,
+        "route_id": 0,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 1,
+        "scenario_folder": "object_detection",
+        "scenario_id": 1,
+        "route_id": 1,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 2,
+        "scenario_folder": "object_detection",
+        "scenario_id": 1,
+        "route_id": 2,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 3,
+        "scenario_folder": "object_detection",
+        "scenario_id": 1,
+        "route_id": 3,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 4,
+        "scenario_folder": "object_detection",
+        "scenario_id": 2,
+        "route_id": 0,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 5,
+        "scenario_folder": "object_detection",
+        "scenario_id": 2,
+        "route_id": 1,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 6,
+        "scenario_folder": "object_detection",
+        "scenario_id": 2,
+        "route_id": 2,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 7,
+        "scenario_folder": "object_detection",
+        "scenario_id": 2,
+        "route_id": 3,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 8,
+        "scenario_folder": "object_detection",
+        "scenario_id": 3,
+        "route_id": 0,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 9,
+        "scenario_folder": "object_detection",
+        "scenario_id": 3,
+        "route_id": 1,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 10,
+        "scenario_folder": "object_detection",
+        "scenario_id": 3,
+        "route_id": 2,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 11,
+        "scenario_folder": "object_detection",
+        "scenario_id": 3,
+        "route_id": 3,
+        "risk_level": null,
+        "parameters": null
+    }
+]

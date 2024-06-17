@@ -1,0 +1,15 @@
+
+policy_type: 'yolo'
+model_path: ''
+results_folder_path: ''
+obs_type: 3
+batch_size: 1
+epoch: 10
+save_freq: 1
+# max_buffer_size: 1
+train_episode: 100
+eval_in_train_freq: 1
+save_freq: 1
+buffer_capacity: 10000
+buffer_start_training: 100
+type: 'offpolicy'

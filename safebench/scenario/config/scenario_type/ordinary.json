@@ -1,0 +1,34 @@
+[
+    {
+        "data_id": 0,
+        "scenario_folder": "ordinary",
+        "scenario_id": 0,
+        "route_id": 0,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 1,
+        "scenario_folder": "ordinary",
+        "scenario_id": 0,
+        "route_id": 0,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 2,
+        "scenario_folder": "ordinary",
+        "scenario_id": 0,
+        "route_id": 0,
+        "risk_level": null,
+        "parameters": null
+    },
+    {
+        "data_id": 3,
+        "scenario_folder": "ordinary",
+        "scenario_id": 0,
+        "route_id": 0,
+        "risk_level": null,
+        "parameters": null
+    }
+]

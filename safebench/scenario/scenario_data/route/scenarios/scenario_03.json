@@ -1,0 +1,190 @@
+{
+    "available_scenarios": [
+        {
+            "Town_Safebench_Light": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "72.50",
+                                "y": "5.25",
+                                "yaw": "-0.00",
+                                "z": "0.15"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "194.75",
+                                "y": "72.50",
+                                "yaw": "90.00",
+                                "z": "0.29"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "128.50",
+                                "y": "194.75",
+                                "yaw": "180.00",
+                                "z": "0.15"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "5.25",
+                                "y": "128.50",
+                                "yaw": "270.00",
+                                "z": "0.29"
+                            }
+                        }
+                    ],
+                    "scenario_name": "OtherLeadingVehicle"
+                }
+            ],
+            "Town01": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "OtherLeadingVehicle"
+                }
+            ],
+            "Town02": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "OtherLeadingVehicle"
+                }
+            ],
+            "Town03": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "transform": {
+                                "pitch": "358",
+                                "x": 160.88,
+                                "y": 193.2,
+                                "yaw": 179.0,
+                                "z": 4.1
+                            }
+                        }
+                    ],
+                    "scenario_name": "OtherLeadingVehicle"
+                }
+            ],
+            "Town04": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "transform": {
+                                "pitch": "0.0",
+                                "x": "-332.7461853027344",
+                                "y": "428.5581970214844",
+                                "yaw": "3.95513916015625",
+                                "z": "0.0"
+                            }
+                        }
+                    ],
+                    "scenario_name": "OtherLeadingVehicle"
+                }
+            ],
+            "Town05": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "transform": {
+                                "pitch": "360.0",
+                                "x": "95.22684478759766",
+                                "y": "191.45719177246094",
+                                "yaw": "180.28781127929688",
+                                "z": "0.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0.0",
+                                "x": "210.05767822265625",
+                                "y": "98.48790740966797",
+                                "yaw": "-89.33536529541016",
+                                "z": "0.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -21.26,
+                                "y": 187.6,
+                                "yaw": 180.0,
+                                "z": 1.1
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "360.0",
+                                "x": "189.24046325683594",
+                                "y": "-53.87146759033203",
+                                "yaw": "89.33090209960938",
+                                "z": "0.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "360.1088562011719",
+                                "x": "-229.8777618408203",
+                                "y": "75.34733581542969",
+                                "yaw": "270.80999755859375",
+                                "z": "9.976667404174805"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -28.4,
+                                "y": 190.79,
+                                "yaw": 180.0,
+                                "z": 1.23
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -140.88,
+                                "y": -186.7,
+                                "yaw": 0.0,
+                                "z": 11.2
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -244.3,
+                                "y": -76.86,
+                                "yaw": 90.0,
+                                "z": 11.0
+                            }
+                        }
+                    ],
+                    "scenario_name": "OtherLeadingVehicle"
+                }
+            ],
+            "Town06": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "OtherLeadingVehicle"
+                }
+            ]
+        }
+    ]
+}

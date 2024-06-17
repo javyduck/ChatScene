@@ -1,0 +1,41 @@
+{
+    "continue_from_epoch":	265,
+    "data_dir":	"carla_cost_20",
+    "episode_rerun_num":	100,
+    "evaluate_episode_num":	1,
+    "exp_name":	"sac_epoch_1200_obs_type_0",
+    "obs_type":	0,
+    "policy":	"sac",
+    "pretrain_dir":	"data/carla_cost_20/sac_epoch_1200_obs_type_0/sac_epoch_1200_obs_type_0_s3/",
+    "sac":	{
+        "KD":	0.001,
+        "KI":	0.003,
+        "KP":	0.1,
+        "ac_model":	"mlp",
+        "actor_lr":	0.001,
+        "alpha":	0.01,
+        "cost_end":	5,
+        "cost_limit":	20,
+        "cost_start":	100,
+        "critic_lr":	0.001,
+        "decay_epoch":	200,
+        "gamma":	0.99,
+        "hidden_sizes":	[
+            256,
+            256
+        ],
+        "num_q":	2,
+        "num_qc":	1,
+        "polyak":	0.995,
+        "steps_per_epoch":	2000,
+        "use_cost_decay":	false,
+        "worker_config":	{
+            "batch_size":	100,
+            "buffer_size":	20000,
+            "warmup_steps":	600
+        }
+    },
+    "sample_episode_num":	20,
+    "seed":	4,
+    "timeout_steps":	80
+}

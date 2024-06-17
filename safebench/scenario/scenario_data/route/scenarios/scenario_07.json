@@ -1,0 +1,333 @@
+{
+    "available_scenarios": [
+        {
+            "Town_Safebench_Light": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.00",
+                                        "x": "-14.50",
+                                        "y": "5.25",
+                                        "yaw": "-0.00",
+                                        "z": "0.15"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "5.25",
+                                "y": "32.50",
+                                "yaw": "270.00",
+                                "z": "0.29"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.00",
+                                        "x": "194.75",
+                                        "y": "-14.50",
+                                        "yaw": "90.00",
+                                        "z": "0.29"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "166.50",
+                                "y": "5.25",
+                                "yaw": "-0.00",
+                                "z": "0.15"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "360.00",
+                                        "x": "214.50",
+                                        "y": "194.75",
+                                        "yaw": "180.00",
+                                        "z": "0.15"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "194.75",
+                                "y": "166.50",
+                                "yaw": "90.00",
+                                "z": "0.29"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "360.00",
+                                        "x": "5.25",
+                                        "y": "214.50",
+                                        "yaw": "270.00",
+                                        "z": "0.29"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "32.50",
+                                "y": "194.75",
+                                "yaw": "180.00",
+                                "z": "0.15"
+                            }
+                        }
+                    ],
+                    "scenario_name": "SignalizedJunctionRightTurn"
+                }
+            ],
+            "Town01": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "334.25",
+                                        "y": "180.22",
+                                        "yaw": "90.0",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": "304.75",
+                                "y": "199.22",
+                                "yaw": "0",
+                                "z": "1.0"
+                            }
+                        }
+                    ],
+                    "scenario_name": "SignalizedJunctionRightTurn"
+                }
+            ],
+            "Town02": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "26.7",
+                                        "y": "191.66",
+                                        "yaw": "0.000061",
+                                        "z": "1.21"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": "46.7",
+                                "y": "220.74",
+                                "yaw": "270",
+                                "z": "1.21"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-3.60",
+                                        "y": "207.56",
+                                        "yaw": "270.000061",
+                                        "z": "1.22"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": "26.65",
+                                "y": "187.56",
+                                "yaw": "180",
+                                "z": "1.22"
+                            }
+                        }
+                    ],
+                    "scenario_name": "SignalizedJunctionRightTurn"
+                }
+            ],
+            "Town03": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "SignalizedJunctionRightTurn"
+                }
+            ],
+            "Town04": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "222.15",
+                                        "y": "-310.81",
+                                        "yaw": "180.697571",
+                                        "z": "1.3"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": 202.15,
+                                "y": -341.28,
+                                "yaw": 90.0,
+                                "z": 1.3
+                            }
+                        }
+                    ],
+                    "scenario_name": "SignalizedJunctionRightTurn"
+                }
+            ],
+            "Town05": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-34.58",
+                                        "y": "0.64",
+                                        "yaw": "180.132767",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -54.51,
+                                "y": -27.74,
+                                "yaw": 90.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "30.42",
+                                        "y": "-104.38",
+                                        "yaw": "90.18869",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": 0.72,
+                                "y": -84.38,
+                                "yaw": 0.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "44.65",
+                                        "y": "187.5",
+                                        "yaw": "179.153809",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": 24.65,
+                                "y": 158.85,
+                                "yaw": 89.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-141.88",
+                                        "y": "-84.88",
+                                        "yaw": "0.586456",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -121.2,
+                                "y": -56.45,
+                                "yaw": 270.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-204.45",
+                                        "y": "3.36",
+                                        "yaw": "0.586456",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -184.45,
+                                "y": 34.79,
+                                "yaw": 270.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": [
+                                    {
+                                        "pitch": "0.0",
+                                        "x": "-34.35",
+                                        "y": "87.16",
+                                        "yaw": "180.132767",
+                                        "z": "1.0"
+                                    }
+                                ]
+                            },
+                            "transform": {
+                                "pitch": "0",
+                                "x": -54.35,
+                                "y": 56.6,
+                                "yaw": 90.0,
+                                "z": 1.0
+                            }
+                        }
+                    ],
+                    "scenario_name": "SignalizedJunctionRightTurn"
+                }
+            ],
+            "Town06": [
+                {
+                    "available_event_configurations": [],
+                    "scenario_name": "SignalizedJunctionRightTurn"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+policy_type: 'scenic'
+scenario_category: 'scenic'
+
+scenic_dir: 'safebench/scenario/scenario_data/scenic_data/dynamic_scenario/'
+sample_num: 10
+opt_step: 5
+select_num: 2
+
+method: 'scenic'
+scenario_id: null
+
+ego_action_dim: 2
+ego_state_dim: 4
+ego_action_limit: 1.0

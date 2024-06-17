@@ -1,0 +1,21 @@
+scenario_type_dir: 'safebench/scenario/config/scenario_type'
+scenario_type: 'od.json' 
+scenario_category: 'perception'
+policy_type: 'od'
+save_video: True
+
+route_dir: 'safebench/scenario/scenario_data/route_perception'
+texture_dir: 'safebench/scenario/scenario_data/template_od/ad.jpg'
+scenario_id: 3
+route_id: null
+
+ego_action_dim: 2
+ego_state_dim: 4
+ego_action_limit: 1.0
+batch_size: 16
+train_episode: 100
+eval_in_train_freq: 1
+save_freq: 1
+buffer_capacity: 10000
+buffer_start_training: 100
+type: 'offpolicy'

@@ -1,0 +1,15 @@
+scenario_type_dir: 'safebench/scenario/config/scenario_type'
+scenario_type: 'human.json'
+scenario_category: 'planning'
+policy_type: 'human'
+
+route_dir: 'safebench/scenario/scenario_data/route'
+scenario_id: null
+route_id: null
+
+ego_action_dim: 2
+ego_state_dim: 4
+ego_action_limit: 1.0
+
+model_path: ''
+save_freq: 40

@@ -1,0 +1,19 @@
+policy_type: 'ddpg'
+model_path: 'safebench/agent/model_ckpt/ddpg'
+model_id: 0
+results_folder_path: ''
+obs_type: 0
+
+train_episode: 2000
+eval_in_train_freq: 1
+save_freq: 10
+buffer_capacity: 10000
+buffer_start_training: 100
+
+actor_lr: 1.0e-4
+critic_lr: 1.0e-3
+tau: 0.01
+update_iteration: 1
+gamma: 0.99
+epsilon: 1.0  # epsilon greedy
+batch_size: 32

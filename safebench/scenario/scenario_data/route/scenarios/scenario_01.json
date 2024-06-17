@@ -1,0 +1,158 @@
+{
+    "available_scenarios": [
+        {
+            "Town_Safebench_Light": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "92.50",
+                                "y": "5.25",
+                                "yaw": "-0.00",
+                                "z": "0.15"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "0.00",
+                                "x": "194.75",
+                                "y": "92.50",
+                                "yaw": "90.00",
+                                "z": "0.29"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "108.50",
+                                "y": "194.75",
+                                "yaw": "180.00",
+                                "z": "0.15"
+                            }
+                        },
+                        {
+                            "other_actors": {
+                                "left": []
+                            },
+                            "transform": {
+                                "pitch": "360.00",
+                                "x": "5.25",
+                                "y": "108.50",
+                                "yaw": "270.00",
+                                "z": "0.29"
+                            }
+                        }
+                    ],
+                    "scenario_name": "DynamicObjectCrossing"
+                }
+            ],
+            "Town05": [
+                {
+                    "available_event_configurations": [
+                        {
+                            "transform": {
+                                "pitch": "360.0",
+                                "x": "64.31412506103516",
+                                "y": "187.88763427734375",
+                                "yaw": "180.28781127929688",
+                                "z": "0.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": 189.1,
+                                "y": -53.9,
+                                "yaw": 90.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -83.39,
+                                "y": -84.5,
+                                "yaw": 0.0,
+                                "z": 0.99
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0.0",
+                                "x": "64.83172607421875",
+                                "y": "-94.36640930175781",
+                                "yaw": "-171.34144592285156",
+                                "z": "0.0"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0.0",
+                                "x": "-184.58729553222656",
+                                "y": "-58.731075286865234",
+                                "yaw": "-90.01580047607422",
+                                "z": "0.055450439453125"
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -121.2,
+                                "y": -56.45,
+                                "yaw": 270.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -82.15,
+                                "y": 6.83,
+                                "yaw": 0.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -55.1,
+                                "y": -23.19,
+                                "yaw": 90.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -195.4,
+                                "y": -31.55,
+                                "yaw": 90.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "transform": {
+                                "pitch": "0",
+                                "x": -93.87,
+                                "y": 144.33,
+                                "yaw": 180.0,
+                                "z": 1.5
+                            }
+                        }
+                    ],
+                    "scenario_name": "DynamicObjectCrossing"
+                }
+            ]
+        }
+    ]
+}

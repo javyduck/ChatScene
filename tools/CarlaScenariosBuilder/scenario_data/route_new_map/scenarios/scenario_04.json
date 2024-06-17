@@ -1,0 +1,61 @@
+{
+  "available_scenarios": [
+    {
+      "Town_Safebench_Light": [
+        {
+          "available_event_configurations": [
+            {
+              "other_actors": {
+                "left": []
+              },
+              "transform": {
+                "pitch": "0.00",
+                "x": "72.50",
+                "y": "1.75",
+                "yaw": "-0.00",
+                "z": "0.15"
+              }
+            },
+            {
+              "other_actors": {
+                "left": []
+              },
+              "transform": {
+                "pitch": "0.00",
+                "x": "198.25",
+                "y": "72.50",
+                "yaw": "90.00",
+                "z": "0.29"
+              }
+            },
+            {
+              "other_actors": {
+                "left": []
+              },
+              "transform": {
+                "pitch": "360.00",
+                "x": "128.50",
+                "y": "198.25",
+                "yaw": "180.00",
+                "z": "0.15"
+              }
+            },
+            {
+              "other_actors": {
+                "left": []
+              },
+              "transform": {
+                "pitch": "360.00",
+                "x": "1.75",
+                "y": "128.50",
+                "yaw": "270.00",
+                "z": "0.29"
+              }
+            }
+          ],
+          "scenario_name": "Scenario6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5702 @@
+{
+    "OPT_behavior_1_opt_ROUTE-0": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.71,
+                "high": 3.97
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.76,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.79,
+                "high": 13.88
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 0.79
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.71,
+                "high": 2.99
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.54,
+                "high": 14.42
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 6.45,
+                "high": 13.7
+            },
+            "OPT_THROTTLE": {
+                "low": 0.56,
+                "high": 0.77
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.43,
+                "high": 2.61
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.86,
+                "high": 14.36
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 6.8,
+                "high": 13.68
+            },
+            "OPT_THROTTLE": {
+                "low": 0.56,
+                "high": 0.76
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.33,
+                "high": 2.48
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.99,
+                "high": 14.31
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 6.96,
+                "high": 13.61
+            },
+            "OPT_THROTTLE": {
+                "low": 0.55,
+                "high": 0.74
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.85,
+                "high": 1.98
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.36,
+                "high": 14.17
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 7.26,
+                "high": 13.16
+            },
+            "OPT_THROTTLE": {
+                "low": 0.57,
+                "high": 0.74
+            }
+        },
+        "select_id": [
+            40,
+            41
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-0": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.11,
+                "high": 8.83
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.78,
+                "high": 10.48
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.31,
+                "high": 3.47
+            },
+            "OPT_BRAKE": {
+                "low": 0.28,
+                "high": 1.0
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 4.09,
+                "high": 8.81
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.65,
+                "high": 10.43
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.63,
+                "high": 3.23
+            },
+            "OPT_BRAKE": {
+                "low": 0.4,
+                "high": 1.0
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 4.32,
+                "high": 8.41
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.67,
+                "high": 9.75
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.65,
+                "high": 3.05
+            },
+            "OPT_BRAKE": {
+                "low": 0.4,
+                "high": 0.92
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 4.29,
+                "high": 8.03
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.9,
+                "high": 9.55
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.79,
+                "high": 3.02
+            },
+            "OPT_BRAKE": {
+                "low": 0.44,
+                "high": 0.88
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 4.41,
+                "high": 7.82
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.94,
+                "high": 9.39
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.89,
+                "high": 3.04
+            },
+            "OPT_BRAKE": {
+                "low": 0.43,
+                "high": 0.83
+            }
+        },
+        "select_id": [
+            2,
+            24
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-0": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.26,
+                "high": 8.42
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 9.66
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.94,
+                "high": 3.79
+            },
+            "OPT_STEER": {
+                "low": 0.6,
+                "high": 0.96
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.22,
+                "high": 7.98
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.75,
+                "high": 9.28
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.44,
+                "high": 3.39
+            },
+            "OPT_STEER": {
+                "low": 0.65,
+                "high": 0.93
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.47,
+                "high": 7.76
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.8,
+                "high": 8.84
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.46,
+                "high": 3.2
+            },
+            "OPT_STEER": {
+                "low": 0.65,
+                "high": 0.9
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.46,
+                "high": 7.47
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.02,
+                "high": 8.72
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.62,
+                "high": 3.17
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.88
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.57,
+                "high": 7.25
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.07,
+                "high": 8.59
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.74,
+                "high": 3.2
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.86
+            }
+        },
+        "select_id": [
+            29,
+            30
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-1": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -6.1,
+                "high": 1.9
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.85,
+                "high": 12.31
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 6.76,
+                "high": 13.63
+            },
+            "OPT_THROTTLE": {
+                "low": 0.61,
+                "high": 0.65
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.52,
+                "high": 1.19
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.9,
+                "high": 11.57
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 7.0,
+                "high": 11.77
+            },
+            "OPT_THROTTLE": {
+                "low": 0.62,
+                "high": 0.65
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.32,
+                "high": 0.73
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.14,
+                "high": 11.4
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 7.04,
+                "high": 11.38
+            },
+            "OPT_THROTTLE": {
+                "low": 0.63,
+                "high": 0.65
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.38,
+                "high": 0.44
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.19,
+                "high": 11.3
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 6.94,
+                "high": 11.07
+            },
+            "OPT_THROTTLE": {
+                "low": 0.63,
+                "high": 0.65
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.93,
+                "high": 0.22
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.23,
+                "high": 11.17
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 7.27,
+                "high": 11.02
+            },
+            "OPT_THROTTLE": {
+                "low": 0.63,
+                "high": 0.65
+            }
+        },
+        "select_id": [
+            29,
+            40
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-1": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.25,
+                "high": 6.83
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.53,
+                "high": 13.02
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.74,
+                "high": 2.76
+            },
+            "OPT_BRAKE": {
+                "low": 0.02,
+                "high": 0.31
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.03,
+                "high": 5.89
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.72,
+                "high": 12.31
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.05,
+                "high": 2.67
+            },
+            "OPT_BRAKE": {
+                "low": 0.03,
+                "high": 0.27
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.49,
+                "high": 5.16
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.24,
+                "high": 12.18
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.14,
+                "high": 2.57
+            },
+            "OPT_BRAKE": {
+                "low": 0.07,
+                "high": 0.29
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.03,
+                "high": 4.69
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.42,
+                "high": 11.82
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.18,
+                "high": 2.44
+            },
+            "OPT_BRAKE": {
+                "low": 0.09,
+                "high": 0.28
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.8,
+                "high": 4.3
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.45,
+                "high": 11.64
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.31,
+                "high": 2.49
+            },
+            "OPT_BRAKE": {
+                "low": 0.1,
+                "high": 0.27
+            }
+        },
+        "select_id": [
+            41,
+            47
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-1": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.65,
+                "high": 8.83
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.94,
+                "high": 12.27
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.08,
+                "high": 3.2
+            },
+            "OPT_STEER": {
+                "low": 0.53,
+                "high": 0.87
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.27,
+                "high": 7.84
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.29,
+                "high": 11.66
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.28,
+                "high": 2.92
+            },
+            "OPT_STEER": {
+                "low": 0.58,
+                "high": 0.87
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.23,
+                "high": 7.15
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.84,
+                "high": 11.52
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.35,
+                "high": 2.77
+            },
+            "OPT_STEER": {
+                "low": 0.62,
+                "high": 0.88
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.54,
+                "high": 6.67
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.97,
+                "high": 11.21
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.39,
+                "high": 2.67
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.87
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.7,
+                "high": 6.41
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.96,
+                "high": 11.05
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.5,
+                "high": 2.73
+            },
+            "OPT_STEER": {
+                "low": 0.64,
+                "high": 0.86
+            }
+        },
+        "select_id": [
+            17,
+            36
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-2": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.88,
+                "high": 3.72
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.05,
+                "high": 9.32
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.43,
+                "high": 14.82
+            },
+            "OPT_THROTTLE": {
+                "low": 0.77,
+                "high": 1.0
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.89,
+                "high": 1.61
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.11,
+                "high": 8.97
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.57,
+                "high": 14.36
+            },
+            "OPT_THROTTLE": {
+                "low": 0.77,
+                "high": 0.94
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.22,
+                "high": 0.76
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.2,
+                "high": 8.92
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.75,
+                "high": 14.24
+            },
+            "OPT_THROTTLE": {
+                "low": 0.79,
+                "high": 0.93
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.08,
+                "high": 0.65
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.24,
+                "high": 8.91
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.9,
+                "high": 14.28
+            },
+            "OPT_THROTTLE": {
+                "low": 0.79,
+                "high": 0.92
+            }
+        },
+        "select_id": [
+            28,
+            49
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-2": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.16,
+                "high": 2.57
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.2,
+                "high": 13.83
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.38,
+                "high": 3.82
+            },
+            "OPT_BRAKE": {
+                "low": 0.15,
+                "high": 0.78
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.78,
+                "high": 3.03
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.71,
+                "high": 13.67
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.54,
+                "high": 3.63
+            },
+            "OPT_BRAKE": {
+                "low": 0.26,
+                "high": 0.77
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.53,
+                "high": 2.53
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.86,
+                "high": 13.39
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.55,
+                "high": 3.49
+            },
+            "OPT_BRAKE": {
+                "low": 0.26,
+                "high": 0.72
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.27,
+                "high": 2.17
+            },
+            "OPT_ADV_SPEED": {
+                "low": 11.11,
+                "high": 13.37
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.6,
+                "high": 3.42
+            },
+            "OPT_BRAKE": {
+                "low": 0.28,
+                "high": 0.68
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.98,
+                "high": 2.3
+            },
+            "OPT_ADV_SPEED": {
+                "low": 11.26,
+                "high": 13.39
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.63,
+                "high": 3.39
+            },
+            "OPT_BRAKE": {
+                "low": 0.29,
+                "high": 0.68
+            }
+        },
+        "select_id": [
+            34,
+            35
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-2": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.45,
+                "high": 5.12
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.73,
+                "high": 13.4
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.54,
+                "high": 3.72
+            },
+            "OPT_STEER": {
+                "low": 0.52,
+                "high": 0.76
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.68,
+                "high": 5.47
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.24,
+                "high": 13.27
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.75,
+                "high": 3.4
+            },
+            "OPT_STEER": {
+                "low": 0.55,
+                "high": 0.74
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.32,
+                "high": 4.73
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.68,
+                "high": 12.93
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.79,
+                "high": 3.26
+            },
+            "OPT_STEER": {
+                "low": 0.56,
+                "high": 0.73
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.79,
+                "high": 4.53
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.98,
+                "high": 12.73
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.89,
+                "high": 3.14
+            },
+            "OPT_STEER": {
+                "low": 0.56,
+                "high": 0.71
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.47,
+                "high": 4.65
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.23,
+                "high": 12.8
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.95,
+                "high": 3.13
+            },
+            "OPT_STEER": {
+                "low": 0.57,
+                "high": 0.71
+            }
+        },
+        "select_id": [
+            19,
+            21
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-3": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -6.1,
+                "high": 1.9
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.85,
+                "high": 12.31
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 6.76,
+                "high": 13.63
+            },
+            "OPT_THROTTLE": {
+                "low": 0.61,
+                "high": 0.65
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.52,
+                "high": 1.19
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.9,
+                "high": 11.57
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 7.0,
+                "high": 11.77
+            },
+            "OPT_THROTTLE": {
+                "low": 0.62,
+                "high": 0.65
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.46,
+                "high": 0.83
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.06,
+                "high": 11.42
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 7.2,
+                "high": 11.58
+            },
+            "OPT_THROTTLE": {
+                "low": 0.62,
+                "high": 0.65
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.4,
+                "high": 0.44
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.14,
+                "high": 11.25
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 7.26,
+                "high": 11.36
+            },
+            "OPT_THROTTLE": {
+                "low": 0.63,
+                "high": 0.65
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.02,
+                "high": 0.42
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.21,
+                "high": 11.13
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 7.55,
+                "high": 11.44
+            },
+            "OPT_THROTTLE": {
+                "low": 0.63,
+                "high": 0.65
+            }
+        },
+        "select_id": [
+            27,
+            45
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-3": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.06,
+                "high": 6.83
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.82,
+                "high": 9.68
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.69,
+                "high": 3.01
+            },
+            "OPT_BRAKE": {
+                "low": 0.17,
+                "high": 0.47
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.12,
+                "high": 6.06
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.93,
+                "high": 9.28
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.26,
+                "high": 3.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.23,
+                "high": 0.45
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.31,
+                "high": 5.79
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.92,
+                "high": 9.02
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.44,
+                "high": 2.93
+            },
+            "OPT_BRAKE": {
+                "low": 0.22,
+                "high": 0.4
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.4,
+                "high": 5.58
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.0,
+                "high": 8.94
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.54,
+                "high": 2.81
+            },
+            "OPT_BRAKE": {
+                "low": 0.23,
+                "high": 0.39
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.56,
+                "high": 5.54
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.03,
+                "high": 8.89
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.58,
+                "high": 2.8
+            },
+            "OPT_BRAKE": {
+                "low": 0.24,
+                "high": 0.4
+            }
+        },
+        "select_id": [
+            17,
+            39
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-3": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.65,
+                "high": 6.99
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.72,
+                "high": 10.22
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.32,
+                "high": 3.75
+            },
+            "OPT_STEER": {
+                "low": 0.58,
+                "high": 0.89
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.16,
+                "high": 6.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.01,
+                "high": 9.86
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.85,
+                "high": 3.69
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.85
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.51,
+                "high": 5.83
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.09,
+                "high": 9.65
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.11,
+                "high": 3.76
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.83
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.64,
+                "high": 5.69
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.12,
+                "high": 9.54
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.19,
+                "high": 3.68
+            },
+            "OPT_STEER": {
+                "low": 0.64,
+                "high": 0.82
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.75,
+                "high": 5.63
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.15,
+                "high": 9.51
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.19,
+                "high": 3.63
+            },
+            "OPT_STEER": {
+                "low": 0.65,
+                "high": 0.82
+            }
+        },
+        "select_id": [
+            18,
+            37
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-4": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.76,
+                "high": 1.9
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.43,
+                "high": 10.25
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.83,
+                "high": 15.97
+            },
+            "OPT_THROTTLE": {
+                "low": 0.56,
+                "high": 0.62
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.76,
+                "high": 1.88
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.83,
+                "high": 10.18
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 13.33,
+                "high": 16.01
+            },
+            "OPT_THROTTLE": {
+                "low": 0.57,
+                "high": 0.63
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.79,
+                "high": 1.89
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.14,
+                "high": 10.06
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 13.88,
+                "high": 16.11
+            },
+            "OPT_THROTTLE": {
+                "low": 0.58,
+                "high": 0.62
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.79,
+                "high": 1.89
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.14,
+                "high": 10.06
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 13.88,
+                "high": 16.11
+            },
+            "OPT_THROTTLE": {
+                "low": 0.58,
+                "high": 0.62
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.79,
+                "high": 1.89
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.14,
+                "high": 10.06
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 13.88,
+                "high": 16.11
+            },
+            "OPT_THROTTLE": {
+                "low": 0.58,
+                "high": 0.62
+            }
+        },
+        "select_id": [
+            20,
+            22
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-5": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -7.95,
+                "high": -3.71
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.95,
+                "high": 12.56
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 9.58,
+                "high": 17.89
+            },
+            "OPT_THROTTLE": {
+                "low": 0.72,
+                "high": 0.95
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -7.33,
+                "high": -4.14
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.51,
+                "high": 11.63
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.5,
+                "high": 18.4
+            },
+            "OPT_THROTTLE": {
+                "low": 0.73,
+                "high": 0.91
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -7.05,
+                "high": -4.28
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.63,
+                "high": 11.31
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.9,
+                "high": 17.92
+            },
+            "OPT_THROTTLE": {
+                "low": 0.73,
+                "high": 0.9
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -6.86,
+                "high": -4.38
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.69,
+                "high": 11.08
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.04,
+                "high": 17.71
+            },
+            "OPT_THROTTLE": {
+                "low": 0.75,
+                "high": 0.91
+            }
+        },
+        "select_id": [
+            29,
+            40
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-5": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.1,
+                "high": 6.4
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.62,
+                "high": 9.35
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.1,
+                "high": 3.52
+            },
+            "OPT_BRAKE": {
+                "low": 0.04,
+                "high": 0.41
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.97,
+                "high": 4.27
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.86,
+                "high": 9.12
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.48,
+                "high": 3.33
+            },
+            "OPT_BRAKE": {
+                "low": 0.11,
+                "high": 0.38
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.57,
+                "high": 3.72
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.91,
+                "high": 8.96
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.73,
+                "high": 3.43
+            },
+            "OPT_BRAKE": {
+                "low": 0.12,
+                "high": 0.35
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.16,
+                "high": 3.36
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.97,
+                "high": 8.9
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.83,
+                "high": 3.33
+            },
+            "OPT_BRAKE": {
+                "low": 0.12,
+                "high": 0.34
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.89,
+                "high": 3.14
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.0,
+                "high": 8.87
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.87,
+                "high": 3.29
+            },
+            "OPT_BRAKE": {
+                "low": 0.14,
+                "high": 0.34
+            }
+        },
+        "select_id": [
+            31,
+            41
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-5": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.2,
+                "high": 7.16
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.92,
+                "high": 9.65
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.01,
+                "high": 3.58
+            },
+            "OPT_STEER": {
+                "low": 0.55,
+                "high": 0.89
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.94,
+                "high": 5.64
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.28,
+                "high": 9.37
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.27,
+                "high": 3.52
+            },
+            "OPT_STEER": {
+                "low": 0.6,
+                "high": 0.86
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.47,
+                "high": 5.01
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.37,
+                "high": 9.14
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.44,
+                "high": 3.56
+            },
+            "OPT_STEER": {
+                "low": 0.6,
+                "high": 0.83
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.05,
+                "high": 4.68
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.42,
+                "high": 9.01
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.5,
+                "high": 3.51
+            },
+            "OPT_STEER": {
+                "low": 0.61,
+                "high": 0.82
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.77,
+                "high": 4.51
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.46,
+                "high": 8.96
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.52,
+                "high": 3.48
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.83
+            }
+        },
+        "select_id": [
+            8,
+            36
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-6": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -8.25,
+                "high": -3.65
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.44,
+                "high": 12.19
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 10.77,
+                "high": 18.59
+            },
+            "OPT_THROTTLE": {
+                "low": 0.7,
+                "high": 0.94
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -8.02,
+                "high": -4.08
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.55,
+                "high": 11.1
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.59,
+                "high": 18.47
+            },
+            "OPT_THROTTLE": {
+                "low": 0.7,
+                "high": 0.9
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -7.55,
+                "high": -4.32
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.73,
+                "high": 10.63
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.13,
+                "high": 17.83
+            },
+            "OPT_THROTTLE": {
+                "low": 0.71,
+                "high": 0.89
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -7.31,
+                "high": -4.36
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.65,
+                "high": 10.2
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.39,
+                "high": 17.83
+            },
+            "OPT_THROTTLE": {
+                "low": 0.73,
+                "high": 0.9
+            }
+        },
+        "select_id": [
+            15,
+            19
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-6": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 4.08,
+                "high": 8.39
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.21,
+                "high": 10.47
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.68,
+                "high": 2.94
+            },
+            "OPT_BRAKE": {
+                "low": 0.29,
+                "high": 0.85
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 4.58,
+                "high": 7.86
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.73,
+                "high": 10.23
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.0,
+                "high": 2.8
+            },
+            "OPT_BRAKE": {
+                "low": 0.36,
+                "high": 0.81
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 5.03,
+                "high": 7.82
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.82,
+                "high": 9.95
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.23,
+                "high": 2.85
+            },
+            "OPT_BRAKE": {
+                "low": 0.36,
+                "high": 0.75
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 5.15,
+                "high": 7.73
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.91,
+                "high": 9.85
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.33,
+                "high": 2.76
+            },
+            "OPT_BRAKE": {
+                "low": 0.38,
+                "high": 0.74
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 5.24,
+                "high": 7.61
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.99,
+                "high": 9.79
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.35,
+                "high": 2.69
+            },
+            "OPT_BRAKE": {
+                "low": 0.42,
+                "high": 0.75
+            }
+        },
+        "select_id": [
+            22,
+            35
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-6": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.56,
+                "high": 7.87
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.2,
+                "high": 10.49
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.2,
+                "high": 3.35
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.96
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.26,
+                "high": 6.52
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.58,
+                "high": 10.02
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.66,
+                "high": 3.3
+            },
+            "OPT_STEER": {
+                "low": 0.71,
+                "high": 0.93
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.74,
+                "high": 6.29
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.69,
+                "high": 9.74
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.9,
+                "high": 3.36
+            },
+            "OPT_STEER": {
+                "low": 0.71,
+                "high": 0.9
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.81,
+                "high": 5.99
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.76,
+                "high": 9.62
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.96,
+                "high": 3.3
+            },
+            "OPT_STEER": {
+                "low": 0.72,
+                "high": 0.9
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.92,
+                "high": 5.76
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.82,
+                "high": 9.58
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.97,
+                "high": 3.24
+            },
+            "OPT_STEER": {
+                "low": 0.73,
+                "high": 0.9
+            }
+        },
+        "select_id": [
+            0,
+            4
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-7": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -10.77,
+                "high": -3.27
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.58,
+                "high": 9.5
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 8.98,
+                "high": 19.21
+            },
+            "OPT_THROTTLE": {
+                "low": 0.71,
+                "high": 0.95
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -9.67,
+                "high": -4.05
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.11,
+                "high": 9.08
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.29,
+                "high": 18.58
+            },
+            "OPT_THROTTLE": {
+                "low": 0.76,
+                "high": 0.92
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -8.97,
+                "high": -4.34
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.2,
+                "high": 8.85
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.38,
+                "high": 18.92
+            },
+            "OPT_THROTTLE": {
+                "low": 0.76,
+                "high": 0.9
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -8.78,
+                "high": -4.7
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.25,
+                "high": 8.75
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.69,
+                "high": 18.6
+            },
+            "OPT_THROTTLE": {
+                "low": 0.77,
+                "high": 0.9
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -8.72,
+                "high": -4.87
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.29,
+                "high": 8.71
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.74,
+                "high": 18.32
+            },
+            "OPT_THROTTLE": {
+                "low": 0.78,
+                "high": 0.9
+            }
+        },
+        "select_id": [
+            0,
+            11
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-7": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.59,
+                "high": 6.73
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.74,
+                "high": 9.63
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.2,
+                "high": 3.6
+            },
+            "OPT_BRAKE": {
+                "low": 0.16,
+                "high": 0.67
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.84,
+                "high": 5.84
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.89,
+                "high": 9.23
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.47,
+                "high": 3.56
+            },
+            "OPT_BRAKE": {
+                "low": 0.24,
+                "high": 0.65
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.96,
+                "high": 5.1
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.93,
+                "high": 9.08
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.65,
+                "high": 3.58
+            },
+            "OPT_BRAKE": {
+                "low": 0.24,
+                "high": 0.61
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.64,
+                "high": 4.69
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.97,
+                "high": 8.93
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.7,
+                "high": 3.45
+            },
+            "OPT_BRAKE": {
+                "low": 0.25,
+                "high": 0.59
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.36,
+                "high": 4.39
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.03,
+                "high": 8.87
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.72,
+                "high": 3.35
+            },
+            "OPT_BRAKE": {
+                "low": 0.28,
+                "high": 0.61
+            }
+        },
+        "select_id": [
+            10,
+            40
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-7": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.5,
+                "high": 5.95
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.56,
+                "high": 9.6
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.34,
+                "high": 3.56
+            },
+            "OPT_STEER": {
+                "low": 0.56,
+                "high": 0.87
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.43,
+                "high": 5.03
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.9,
+                "high": 9.37
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.62,
+                "high": 3.46
+            },
+            "OPT_STEER": {
+                "low": 0.59,
+                "high": 0.85
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.13,
+                "high": 4.52
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.97,
+                "high": 9.11
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.84,
+                "high": 3.52
+            },
+            "OPT_STEER": {
+                "low": 0.59,
+                "high": 0.82
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.76,
+                "high": 4.23
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.03,
+                "high": 8.96
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.94,
+                "high": 3.45
+            },
+            "OPT_STEER": {
+                "low": 0.6,
+                "high": 0.82
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.52,
+                "high": 4.11
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.07,
+                "high": 8.9
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.98,
+                "high": 3.43
+            },
+            "OPT_STEER": {
+                "low": 0.62,
+                "high": 0.82
+            }
+        },
+        "select_id": [
+            4,
+            10
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-8": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -11.88,
+                "high": -4.85
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.59,
+                "high": 9.23
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 9.56,
+                "high": 18.93
+            },
+            "OPT_THROTTLE": {
+                "low": 0.56,
+                "high": 0.93
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -10.88,
+                "high": -5.39
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.77,
+                "high": 8.82
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.71,
+                "high": 19.44
+            },
+            "OPT_THROTTLE": {
+                "low": 0.61,
+                "high": 0.9
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -10.56,
+                "high": -5.83
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.86,
+                "high": 8.55
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 12.83,
+                "high": 19.86
+            },
+            "OPT_THROTTLE": {
+                "low": 0.62,
+                "high": 0.87
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -10.29,
+                "high": -6.04
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.89,
+                "high": 8.44
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 13.29,
+                "high": 19.64
+            },
+            "OPT_THROTTLE": {
+                "low": 0.63,
+                "high": 0.87
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -9.99,
+                "high": -6.07
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.94,
+                "high": 8.39
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 13.54,
+                "high": 19.56
+            },
+            "OPT_THROTTLE": {
+                "low": 0.65,
+                "high": 0.87
+            }
+        },
+        "select_id": [
+            11,
+            48
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-8": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.65,
+                "high": 4.67
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.58,
+                "high": 14.2
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.04,
+                "high": 3.5
+            },
+            "OPT_BRAKE": {
+                "low": 0.54,
+                "high": 0.82
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.47,
+                "high": 3.85
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.85,
+                "high": 13.55
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.19,
+                "high": 3.01
+            },
+            "OPT_BRAKE": {
+                "low": 0.59,
+                "high": 0.81
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.13,
+                "high": 3.4
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.2,
+                "high": 13.4
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.3,
+                "high": 2.89
+            },
+            "OPT_BRAKE": {
+                "low": 0.62,
+                "high": 0.8
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.07,
+                "high": 2.97
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.35,
+                "high": 13.23
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.38,
+                "high": 2.88
+            },
+            "OPT_BRAKE": {
+                "low": 0.63,
+                "high": 0.79
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.93,
+                "high": 2.73
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.42,
+                "high": 13.13
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 1.43,
+                "high": 2.84
+            },
+            "OPT_BRAKE": {
+                "low": 0.63,
+                "high": 0.79
+            }
+        },
+        "select_id": [
+            14,
+            31
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-8": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.87,
+                "high": 3.4
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.97,
+                "high": 14.09
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.04,
+                "high": 3.55
+            },
+            "OPT_STEER": {
+                "low": 0.8,
+                "high": 0.91
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.68,
+                "high": 2.81
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.31,
+                "high": 13.58
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.24,
+                "high": 3.11
+            },
+            "OPT_STEER": {
+                "low": 0.82,
+                "high": 0.9
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.48,
+                "high": 2.31
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.55,
+                "high": 13.43
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.32,
+                "high": 2.97
+            },
+            "OPT_STEER": {
+                "low": 0.83,
+                "high": 0.9
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.3,
+                "high": 2.03
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.76,
+                "high": 13.32
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.4,
+                "high": 2.94
+            },
+            "OPT_STEER": {
+                "low": 0.83,
+                "high": 0.9
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.16,
+                "high": 1.82
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.83,
+                "high": 13.22
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.45,
+                "high": 2.88
+            },
+            "OPT_STEER": {
+                "low": 0.83,
+                "high": 0.89
+            }
+        },
+        "select_id": [
+            0,
+            34
+        ]
+    },
+    "OPT_behavior_1_opt_ROUTE-9": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -15.0,
+                "high": 5.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 5.0,
+                "high": 20.0
+            },
+            "OPT_THROTTLE": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.24,
+                "high": 3.43
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.31,
+                "high": 10.24
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 10.79,
+                "high": 15.84
+            },
+            "OPT_THROTTLE": {
+                "low": 0.58,
+                "high": 0.87
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.36,
+                "high": 1.01
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.1,
+                "high": 9.68
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.1,
+                "high": 14.83
+            },
+            "OPT_THROTTLE": {
+                "low": 0.62,
+                "high": 0.84
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.16,
+                "high": 0.27
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.18,
+                "high": 9.35
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.18,
+                "high": 14.35
+            },
+            "OPT_THROTTLE": {
+                "low": 0.64,
+                "high": 0.83
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.78,
+                "high": 0.05
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.48,
+                "high": 9.26
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.37,
+                "high": 14.26
+            },
+            "OPT_THROTTLE": {
+                "low": 0.66,
+                "high": 0.83
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.62,
+                "high": -0.17
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.51,
+                "high": 9.04
+            },
+            "OPT_ADV_DISTANCE": {
+                "low": 11.39,
+                "high": 14.05
+            },
+            "OPT_THROTTLE": {
+                "low": 0.65,
+                "high": 0.81
+            }
+        },
+        "select_id": [
+            3,
+            26
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-9": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.15,
+                "high": 5.75
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.05,
+                "high": 11.99
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.6,
+                "high": 2.11
+            },
+            "OPT_BRAKE": {
+                "low": 0.22,
+                "high": 0.64
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.65,
+                "high": 5.18
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.71,
+                "high": 11.82
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.71,
+                "high": 1.97
+            },
+            "OPT_BRAKE": {
+                "low": 0.31,
+                "high": 0.64
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.8,
+                "high": 4.96
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.94,
+                "high": 11.75
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.76,
+                "high": 1.91
+            },
+            "OPT_BRAKE": {
+                "low": 0.34,
+                "high": 0.63
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.01,
+                "high": 4.75
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.98,
+                "high": 11.45
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.81,
+                "high": 1.84
+            },
+            "OPT_BRAKE": {
+                "low": 0.35,
+                "high": 0.62
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.19,
+                "high": 4.59
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.05,
+                "high": 11.15
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.83,
+                "high": 1.79
+            },
+            "OPT_BRAKE": {
+                "low": 0.37,
+                "high": 0.61
+            }
+        },
+        "select_id": [
+            7,
+            35
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-9": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.72,
+                "high": 5.94
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.36,
+                "high": 12.55
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.5,
+                "high": 2.0
+            },
+            "OPT_STEER": {
+                "low": 0.62,
+                "high": 0.81
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.28,
+                "high": 5.62
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.11,
+                "high": 12.5
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.59,
+                "high": 1.86
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.81
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.42,
+                "high": 5.38
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.51,
+                "high": 12.52
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.67,
+                "high": 1.82
+            },
+            "OPT_STEER": {
+                "low": 0.68,
+                "high": 0.8
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.6,
+                "high": 5.19
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.61,
+                "high": 12.18
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.74,
+                "high": 1.74
+            },
+            "OPT_STEER": {
+                "low": 0.69,
+                "high": 0.8
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.69,
+                "high": 5.07
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.65,
+                "high": 11.89
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.76,
+                "high": 1.7
+            },
+            "OPT_STEER": {
+                "low": 0.69,
+                "high": 0.8
+            }
+        },
+        "select_id": [
+            16,
+            17
+        ]
+    },
+    "OPT_behavior_2_opt_ROUTE-4": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_BRAKE": {
+                "low": 0.0,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.44,
+                "high": 5.23
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.48,
+                "high": 9.66
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.09,
+                "high": 3.64
+            },
+            "OPT_BRAKE": {
+                "low": 0.12,
+                "high": 0.79
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.87,
+                "high": 4.03
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.69,
+                "high": 9.18
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.32,
+                "high": 3.6
+            },
+            "OPT_BRAKE": {
+                "low": 0.23,
+                "high": 0.78
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.61,
+                "high": 3.32
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.86,
+                "high": 9.0
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.52,
+                "high": 3.67
+            },
+            "OPT_BRAKE": {
+                "low": 0.26,
+                "high": 0.74
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.29,
+                "high": 3.05
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.96,
+                "high": 8.89
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.58,
+                "high": 3.6
+            },
+            "OPT_BRAKE": {
+                "low": 0.29,
+                "high": 0.73
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.07,
+                "high": 2.88
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.0,
+                "high": 8.84
+            },
+            "OPT_BRAKE_DISTANCE": {
+                "low": 2.59,
+                "high": 3.56
+            },
+            "OPT_BRAKE": {
+                "low": 0.33,
+                "high": 0.74
+            }
+        },
+        "select_id": [
+            32,
+            38
+        ]
+    },
+    "OPT_behavior_3_opt_ROUTE-4": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.46,
+                "high": 4.58
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.3,
+                "high": 8.52
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.99,
+                "high": 3.64
+            },
+            "OPT_STEER": {
+                "low": 0.6,
+                "high": 0.93
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.54,
+                "high": 3.18
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.68,
+                "high": 8.28
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.48,
+                "high": 3.51
+            },
+            "OPT_STEER": {
+                "low": 0.65,
+                "high": 0.89
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.32,
+                "high": 2.76
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.7,
+                "high": 8.11
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.67,
+                "high": 3.6
+            },
+            "OPT_STEER": {
+                "low": 0.65,
+                "high": 0.87
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.97,
+                "high": 2.55
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.73,
+                "high": 7.96
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.8,
+                "high": 3.49
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.86
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.81,
+                "high": 2.45
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.78,
+                "high": 7.96
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.8,
+                "high": 3.42
+            },
+            "OPT_STEER": {
+                "low": 0.67,
+                "high": 0.86
+            }
+        },
+        "select_id": [
+            30,
+            35
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-0": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.31,
+                "high": 5.82
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.55,
+                "high": 11.87
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.92,
+                "high": 3.62
+            },
+            "OPT_STEER": {
+                "low": 0.56,
+                "high": 0.83
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.07,
+                "high": 5.64
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.84,
+                "high": 11.37
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.8,
+                "high": 3.16
+            },
+            "OPT_STEER": {
+                "low": 0.58,
+                "high": 0.8
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.54,
+                "high": 5.49
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.12,
+                "high": 11.33
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.9,
+                "high": 3.08
+            },
+            "OPT_STEER": {
+                "low": 0.59,
+                "high": 0.78
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.66,
+                "high": 5.5
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.21,
+                "high": 11.22
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.0,
+                "high": 3.04
+            },
+            "OPT_STEER": {
+                "low": 0.59,
+                "high": 0.78
+            }
+        },
+        "select_id": [
+            17,
+            44
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-0": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 2.2,
+                "high": 8.32
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.73,
+                "high": 3.31
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.38,
+                "high": 14.54
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.63,
+                "high": 1.78
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.27,
+                "high": 7.71
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.25,
+                "high": 3.17
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.19,
+                "high": 13.3
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.82,
+                "high": 1.72
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.44,
+                "high": 7.33
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.38,
+                "high": 2.97
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.47,
+                "high": 12.8
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.82,
+                "high": 1.6
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.47,
+                "high": 7.02
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.49,
+                "high": 2.9
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.77,
+                "high": 12.53
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.83,
+                "high": 1.53
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 3.63,
+                "high": 6.89
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.6,
+                "high": 2.9
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.93,
+                "high": 12.45
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.87,
+                "high": 1.52
+            }
+        },
+        "select_id": [
+            22,
+            47
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-1": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.16,
+                "high": 4.67
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.05,
+                "high": 13.72
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.14,
+                "high": 3.13
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.95
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.21,
+                "high": 4.36
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.02,
+                "high": 13.36
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.15,
+                "high": 2.96
+            },
+            "OPT_STEER": {
+                "low": 0.67,
+                "high": 0.91
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.38,
+                "high": 3.91
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.21,
+                "high": 12.92
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.27,
+                "high": 3.0
+            },
+            "OPT_STEER": {
+                "low": 0.68,
+                "high": 0.89
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.01,
+                "high": 3.63
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.76,
+                "high": 12.9
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.32,
+                "high": 2.99
+            },
+            "OPT_STEER": {
+                "low": 0.69,
+                "high": 0.89
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.95,
+                "high": 3.34
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.78,
+                "high": 12.69
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.36,
+                "high": 2.99
+            },
+            "OPT_STEER": {
+                "low": 0.71,
+                "high": 0.88
+            }
+        },
+        "select_id": [
+            36,
+            43
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-1": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.55,
+                "high": 4.27
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.8,
+                "high": 1.8
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.72,
+                "high": 14.59
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.12,
+                "high": 1.51
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.15,
+                "high": 3.49
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.9,
+                "high": 1.68
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.77,
+                "high": 14.42
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.32,
+                "high": 1.36
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.78,
+                "high": 3.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.93,
+                "high": 1.59
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.43,
+                "high": 14.59
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.33,
+                "high": 1.24
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.48,
+                "high": 2.79
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.95,
+                "high": 1.55
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.68,
+                "high": 14.44
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.36,
+                "high": 1.2
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.22,
+                "high": 2.7
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.96,
+                "high": 1.52
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.78,
+                "high": 14.36
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.42,
+                "high": 1.22
+            }
+        },
+        "select_id": [
+            33,
+            37
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-2": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.54,
+                "high": 7.33
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.85,
+                "high": 11.56
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.97,
+                "high": 3.12
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.87
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.95,
+                "high": 6.56
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.96,
+                "high": 11.15
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.03,
+                "high": 2.75
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.85
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.13,
+                "high": 6.12
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.12,
+                "high": 11.13
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.0,
+                "high": 2.59
+            },
+            "OPT_STEER": {
+                "low": 0.67,
+                "high": 0.84
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.55,
+                "high": 6.12
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.26,
+                "high": 11.08
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.07,
+                "high": 2.52
+            },
+            "OPT_STEER": {
+                "low": 0.69,
+                "high": 0.84
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.6,
+                "high": 5.77
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.31,
+                "high": 11.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.14,
+                "high": 2.46
+            },
+            "OPT_STEER": {
+                "low": 0.7,
+                "high": 0.83
+            }
+        },
+        "select_id": [
+            8,
+            49
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-2": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.49,
+                "high": 5.12
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.55,
+                "high": 3.03
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.95,
+                "high": 14.89
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.58,
+                "high": 1.66
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.64,
+                "high": 4.34
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.83,
+                "high": 2.87
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.32,
+                "high": 14.32
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.71,
+                "high": 1.65
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.01,
+                "high": 4.31
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.99,
+                "high": 2.79
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.6,
+                "high": 14.22
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.72,
+                "high": 1.58
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.1,
+                "high": 3.95
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.15,
+                "high": 2.69
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.94,
+                "high": 13.93
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.76,
+                "high": 1.48
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.01,
+                "high": 3.71
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.21,
+                "high": 2.66
+            },
+            "OPT_ADV_SPEED": {
+                "low": 11.06,
+                "high": 13.88
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.79,
+                "high": 1.48
+            }
+        },
+        "select_id": [
+            11,
+            40
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-3": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.0,
+                "high": -0.63
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.57,
+                "high": 14.76
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.82,
+                "high": 2.82
+            },
+            "OPT_STEER": {
+                "low": 0.62,
+                "high": 0.9
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.9,
+                "high": -0.66
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.27,
+                "high": 13.92
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.82,
+                "high": 2.82
+            },
+            "OPT_STEER": {
+                "low": 0.64,
+                "high": 0.82
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.87,
+                "high": -0.67
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.88,
+                "high": 13.68
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.82,
+                "high": 2.82
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.82
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.86,
+                "high": -0.67
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.94,
+                "high": 13.55
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.82,
+                "high": 2.82
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.82
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.85,
+                "high": -0.68
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.1,
+                "high": 13.32
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 2.82,
+                "high": 2.82
+            },
+            "OPT_STEER": {
+                "low": 0.67,
+                "high": 0.8
+            }
+        },
+        "select_id": [
+            35,
+            40
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-3": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.22,
+                "high": 7.44
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.0,
+                "high": 3.1
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.23,
+                "high": 12.64
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.42,
+                "high": 1.67
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.84,
+                "high": 6.74
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.23,
+                "high": 2.91
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.15,
+                "high": 12.27
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.54,
+                "high": 1.56
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.23,
+                "high": 6.2
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.46,
+                "high": 2.85
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.35,
+                "high": 11.86
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.69,
+                "high": 1.6
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.5,
+                "high": 5.89
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.51,
+                "high": 2.74
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.4,
+                "high": 11.57
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.74,
+                "high": 1.56
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 1.61,
+                "high": 5.62
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.54,
+                "high": 2.71
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.6,
+                "high": 11.62
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.75,
+                "high": 1.51
+            }
+        },
+        "select_id": [
+            0,
+            46
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-4": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.93,
+                "high": 5.15
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.89,
+                "high": 14.41
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.48,
+                "high": 3.63
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.92
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.16,
+                "high": 5.14
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.82,
+                "high": 14.18
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.58,
+                "high": 3.46
+            },
+            "OPT_STEER": {
+                "low": 0.64,
+                "high": 0.86
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.19,
+                "high": 4.73
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.17,
+                "high": 14.04
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.72,
+                "high": 3.42
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.87
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.58,
+                "high": 4.85
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.2,
+                "high": 13.68
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.85,
+                "high": 3.42
+            },
+            "OPT_STEER": {
+                "low": 0.69,
+                "high": 0.87
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.69,
+                "high": 4.8
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.23,
+                "high": 13.52
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.88,
+                "high": 3.36
+            },
+            "OPT_STEER": {
+                "low": 0.69,
+                "high": 0.87
+            }
+        },
+        "select_id": [
+            7,
+            18
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-4": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.72,
+                "high": 4.17
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.06,
+                "high": 2.81
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.15,
+                "high": 11.03
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.08,
+                "high": 1.35
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.09,
+                "high": 3.34
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.21,
+                "high": 2.58
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.51,
+                "high": 10.7
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.27,
+                "high": 1.31
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.78,
+                "high": 2.88
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.38,
+                "high": 2.53
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.6,
+                "high": 10.5
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.41,
+                "high": 1.35
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.4,
+                "high": 2.73
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.42,
+                "high": 2.44
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.65,
+                "high": 10.37
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.46,
+                "high": 1.3
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.16,
+                "high": 2.6
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.44,
+                "high": 2.41
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.77,
+                "high": 10.41
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.47,
+                "high": 1.26
+            }
+        },
+        "select_id": [
+            9,
+            45
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-5": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.76,
+                "high": 6.43
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.7,
+                "high": 12.53
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.65,
+                "high": 2.35
+            },
+            "OPT_STEER": {
+                "low": 0.59,
+                "high": 0.95
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.0,
+                "high": 5.37
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.3,
+                "high": 11.88
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.73,
+                "high": 2.23
+            },
+            "OPT_STEER": {
+                "low": 0.61,
+                "high": 0.91
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.92,
+                "high": 5.04
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.39,
+                "high": 11.69
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.77,
+                "high": 2.17
+            },
+            "OPT_STEER": {
+                "low": 0.61,
+                "high": 0.89
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.65,
+                "high": 4.62
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.56,
+                "high": 11.38
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.82,
+                "high": 2.11
+            },
+            "OPT_STEER": {
+                "low": 0.64,
+                "high": 0.89
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.39,
+                "high": 4.58
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.6,
+                "high": 11.22
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.83,
+                "high": 2.05
+            },
+            "OPT_STEER": {
+                "low": 0.65,
+                "high": 0.88
+            }
+        },
+        "select_id": [
+            17,
+            23
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-5": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.57,
+                "high": 7.7
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.65,
+                "high": 2.42
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.79,
+                "high": 13.1
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.14,
+                "high": 1.48
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.27,
+                "high": 6.61
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.85,
+                "high": 2.34
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.29,
+                "high": 12.7
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.26,
+                "high": 1.33
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.57,
+                "high": 6.51
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.0,
+                "high": 2.33
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.59,
+                "high": 12.48
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.42,
+                "high": 1.33
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.35,
+                "high": 6.1
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.06,
+                "high": 2.27
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.83,
+                "high": 12.33
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.44,
+                "high": 1.29
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.19,
+                "high": 5.89
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.1,
+                "high": 2.21
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.95,
+                "high": 12.28
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.5,
+                "high": 1.31
+            }
+        },
+        "select_id": [
+            17,
+            36
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-6": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 3.02
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.62,
+                "high": 13.73
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.42,
+                "high": 3.12
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.96
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.15,
+                "high": 2.76
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.14,
+                "high": 13.34
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.7,
+                "high": 2.93
+            },
+            "OPT_STEER": {
+                "low": 0.71,
+                "high": 0.95
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.15,
+                "high": 2.03
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.45,
+                "high": 13.13
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.76,
+                "high": 2.88
+            },
+            "OPT_STEER": {
+                "low": 0.72,
+                "high": 0.94
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.05,
+                "high": 1.92
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.68,
+                "high": 13.06
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.83,
+                "high": 2.87
+            },
+            "OPT_STEER": {
+                "low": 0.74,
+                "high": 0.94
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.99,
+                "high": 1.54
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.82,
+                "high": 12.91
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.91,
+                "high": 2.83
+            },
+            "OPT_STEER": {
+                "low": 0.76,
+                "high": 0.94
+            }
+        },
+        "select_id": [
+            20,
+            35
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-6": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.55,
+                "high": 4.68
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.83,
+                "high": 1.9
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.91,
+                "high": 14.06
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.25,
+                "high": 1.55
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.19,
+                "high": 3.75
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.93,
+                "high": 1.79
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.87,
+                "high": 13.83
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.41,
+                "high": 1.41
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.9,
+                "high": 3.11
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.96,
+                "high": 1.7
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.46,
+                "high": 14.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.41,
+                "high": 1.3
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.4,
+                "high": 2.97
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.98,
+                "high": 1.65
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.72,
+                "high": 13.79
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.45,
+                "high": 1.28
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.25,
+                "high": 2.7
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.0,
+                "high": 1.63
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.8,
+                "high": 13.67
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.52,
+                "high": 1.3
+            }
+        },
+        "select_id": [
+            30,
+            35
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-7": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.55,
+                "high": 7.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.7,
+                "high": 12.04
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.17,
+                "high": 3.15
+            },
+            "OPT_STEER": {
+                "low": 0.61,
+                "high": 0.93
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.01,
+                "high": 6.66
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.28,
+                "high": 11.82
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.33,
+                "high": 3.03
+            },
+            "OPT_STEER": {
+                "low": 0.62,
+                "high": 0.88
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.23,
+                "high": 6.46
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.55,
+                "high": 11.75
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.38,
+                "high": 2.96
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.88
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.17,
+                "high": 5.8
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.47,
+                "high": 11.4
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.53,
+                "high": 2.97
+            },
+            "OPT_STEER": {
+                "low": 0.65,
+                "high": 0.87
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.3,
+                "high": 5.59
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.57,
+                "high": 11.32
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.55,
+                "high": 2.89
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.87
+            }
+        },
+        "select_id": [
+            15,
+            35
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-7": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -4.21,
+                "high": 3.38
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.78,
+                "high": 2.98
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.1,
+                "high": 12.13
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.64,
+                "high": 1.67
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.12,
+                "high": 2.47
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.06,
+                "high": 2.86
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.64,
+                "high": 11.7
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.75,
+                "high": 1.54
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.58,
+                "high": 2.39
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.26,
+                "high": 2.84
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.94,
+                "high": 11.48
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.87,
+                "high": 1.54
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.48,
+                "high": 2.04
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.33,
+                "high": 2.79
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.12,
+                "high": 11.31
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.89,
+                "high": 1.51
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.36,
+                "high": 1.88
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 1.38,
+                "high": 2.72
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.24,
+                "high": 11.26
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.93,
+                "high": 1.52
+            }
+        },
+        "select_id": [
+            14,
+            27
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-8": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.41,
+                "high": 1.12
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.72,
+                "high": 12.89
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.0,
+                "high": 3.43
+            },
+            "OPT_STEER": {
+                "low": 0.59,
+                "high": 0.82
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.72,
+                "high": 1.07
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.87,
+                "high": 12.7
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.24,
+                "high": 3.24
+            },
+            "OPT_STEER": {
+                "low": 0.64,
+                "high": 0.82
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.49,
+                "high": 0.87
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.94,
+                "high": 12.24
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.46,
+                "high": 3.22
+            },
+            "OPT_STEER": {
+                "low": 0.66,
+                "high": 0.82
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.37,
+                "high": 0.8
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.37,
+                "high": 12.24
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.57,
+                "high": 3.23
+            },
+            "OPT_STEER": {
+                "low": 0.67,
+                "high": 0.82
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.29,
+                "high": 0.6
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.6,
+                "high": 12.1
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.71,
+                "high": 3.14
+            },
+            "OPT_STEER": {
+                "low": 0.69,
+                "high": 0.82
+            }
+        },
+        "select_id": [
+            20,
+            35
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-8": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -3.48,
+                "high": 0.8
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.54,
+                "high": 2.9
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.61,
+                "high": 13.02
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.59,
+                "high": 1.48
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.83,
+                "high": 0.28
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.79,
+                "high": 2.58
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.3,
+                "high": 12.95
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.73,
+                "high": 1.39
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.64,
+                "high": 0.02
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.87,
+                "high": 2.38
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.66,
+                "high": 13.04
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.74,
+                "high": 1.31
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.47,
+                "high": -0.11
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.91,
+                "high": 2.27
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.8,
+                "high": 12.93
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.76,
+                "high": 1.3
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.35,
+                "high": -0.18
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.95,
+                "high": 2.23
+            },
+            "OPT_ADV_SPEED": {
+                "low": 10.84,
+                "high": 12.87
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.81,
+                "high": 1.31
+            }
+        },
+        "select_id": [
+            15,
+            21
+        ]
+    },
+    "OPT_behavior_4_opt_ROUTE-9": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_STEER": {
+                "low": 0.5,
+                "high": 1.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -2.07,
+                "high": 6.02
+            },
+            "OPT_ADV_SPEED": {
+                "low": 8.79,
+                "high": 13.0
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 0.71,
+                "high": 2.76
+            },
+            "OPT_STEER": {
+                "low": 0.61,
+                "high": 0.86
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.39,
+                "high": 5.01
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.34,
+                "high": 12.81
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.01,
+                "high": 2.61
+            },
+            "OPT_STEER": {
+                "low": 0.62,
+                "high": 0.84
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.34,
+                "high": 4.56
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.52,
+                "high": 12.57
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.24,
+                "high": 2.7
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.82
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.02,
+                "high": 4.53
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.55,
+                "high": 12.37
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.28,
+                "high": 2.67
+            },
+            "OPT_STEER": {
+                "low": 0.63,
+                "high": 0.82
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.81,
+                "high": 4.3
+            },
+            "OPT_ADV_SPEED": {
+                "low": 9.67,
+                "high": 12.26
+            },
+            "OPT_STEER_DISTANCE": {
+                "low": 1.36,
+                "high": 2.61
+            },
+            "OPT_STEER": {
+                "low": 0.65,
+                "high": 0.81
+            }
+        },
+        "select_id": [
+            7,
+            48
+        ]
+    },
+    "OPT_behavior_5_opt_ROUTE-9": {
+        "opt_time_0": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -5.0,
+                "high": 10.0
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.0,
+                "high": 4.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 5.0,
+                "high": 15.0
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.0,
+                "high": 2.0
+            }
+        },
+        "opt_time_1": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -1.64,
+                "high": 6.23
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.3,
+                "high": 2.0
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.53,
+                "high": 10.61
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.42,
+                "high": 1.32
+            }
+        },
+        "opt_time_2": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.85,
+                "high": 5.46
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.51,
+                "high": 1.95
+            },
+            "OPT_ADV_SPEED": {
+                "low": 6.86,
+                "high": 10.17
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.65,
+                "high": 1.31
+            }
+        },
+        "opt_time_3": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": -0.36,
+                "high": 5.24
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.67,
+                "high": 1.98
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.12,
+                "high": 10.05
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.71,
+                "high": 1.26
+            }
+        },
+        "opt_time_4": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.03,
+                "high": 5.09
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.71,
+                "high": 1.91
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.26,
+                "high": 9.84
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.75,
+                "high": 1.23
+            }
+        },
+        "opt_time_5": {
+            "OPT_GEO_Y_DISTANCE": {
+                "low": 0.22,
+                "high": 4.92
+            },
+            "OPT_SLOW_DISTANCE": {
+                "low": 0.73,
+                "high": 1.84
+            },
+            "OPT_ADV_SPEED": {
+                "low": 7.3,
+                "high": 9.72
+            },
+            "OPT_SLOW_SPEED": {
+                "low": 0.77,
+                "high": 1.22
+            }
+        },
+        "select_id": [
+            0,
+            5
+        ]
+    }
+}

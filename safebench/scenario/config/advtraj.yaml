@@ -1,0 +1,15 @@
+scenario_type_dir: 'safebench/scenario/config/scenario_type'
+scenario_type: 'advtraj.json'
+scenario_category: 'planning'
+policy_type: 'advtraj'
+
+route_dir: 'safebench/scenario/scenario_data/route'
+scenario_id: null
+route_id: null
+
+ego_action_dim: 2
+ego_state_dim: 4
+ego_action_limit: 1.0
+
+model_path: 'safebench/scenario/scenario_data/model_ckpt/advtraj'
+save_freq: 80

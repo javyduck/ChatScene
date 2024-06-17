@@ -1,0 +1,11 @@
+policy_type: 'behavior'
+model_path: ''
+model_id: 0
+results_folder_path: ''
+obs_type: 0
+
+train_episode: 2000
+eval_in_train_freq: 1
+save_freq: 10
+buffer_capacity: 10000
+buffer_start_training: 100

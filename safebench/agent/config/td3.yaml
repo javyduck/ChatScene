@@ -1,0 +1,24 @@
+policy_type: 'td3'
+model_path: 'safebench/agent/model_ckpt/td3'
+model_id: 0
+results_folder_path: ''
+obs_type: 0
+
+train_episode: 2000
+eval_in_train_freq: 1
+save_freq: 10
+buffer_capacity: 10000
+buffer_start_training: 100
+
+hidden_size: 256
+
+lr: 3.0e-4
+tau: 0.005
+update_iteration: 3
+gamma: 0.99
+batch_size: 32
+update_interval: 2
+action_lim: 1
+target_noise: 0.2
+target_noise_clip: 0.5
+explore_noise: 0.1

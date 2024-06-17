@@ -1,0 +1,37 @@
+{
+    "continue_from_epoch":	421,
+    "data_dir":	"carla_cost_20",
+    "episode_rerun_num":	100,
+    "evaluate_episode_num":	1,
+    "exp_name":	"ppo_epoch_1200_obs_type_0",
+    "obs_type":	0,
+    "policy":	"ppo",
+    "ppo":	{
+        "KD":	0.001,
+        "KI":	0.003,
+        "KP":	0.1,
+        "ac_model":	"mlp",
+        "actor_lr":	0.0003,
+        "clip_ratio":	0.2,
+        "cost_limit":	5,
+        "critic_lr":	0.001,
+        "gamma":	0.99,
+        "hidden_sizes":	[
+            256,
+            256
+        ],
+        "target_kl":	0.01,
+        "train_actor_iters":	80,
+        "train_critic_iters":	80,
+        "worker_config":	{
+            "buffer":	"OnPolicyBuffer",
+            "gamma":	0.99,
+            "interact_steps":	1000,
+            "lam":	0.97
+        }
+    },
+    "pretrain_dir":	"data/carla_cost_20/ppo_epoch_1200_obs_type_0/ppo_epoch_1200_obs_type_0_s4/",
+    "sample_episode_num":	20,
+    "seed":	5,
+    "timeout_steps":	80
+}
