@@ -153,3 +153,14 @@ The above part ensures using the same scenario and routes for fair comparison wi
 
 If you have any questions, please open an issue or email [jiaweiz7@illinois.edu](mailto:jiaweiz7@illinois.edu). We aim to resolve your issues as soon as possible!
 
+## Citation
+
+```
+@inproceedings{zhang2024chatscene,
+  title={ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles},
+  author={Zhang, Jiawei and Xu, Chejian and Li, Bo},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={15459--15469},
+  year={2024}
+}
+```
