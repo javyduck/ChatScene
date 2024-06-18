@@ -67,7 +67,7 @@ if __name__ == '__main__':
             if args.scenario_id:
                 scenario_config['scenario_id'] = args.scenario_id
                 
-            agent_config['load_dir'] = osp.join(agent_config['load_dir'], f'scenario_{scenario_config['scenario_id']}')
+            agent_config['load_dir'] = osp.join(agent_config['load_dir'], f"scenario_{scenario_config['scenario_id']}")
             # Check if the directory exists; if not, create it
             if not osp.exists(agent_config['load_dir']):
                 os.makedirs(agent_config['load_dir'])        

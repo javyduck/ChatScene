@@ -1,0 +1,16 @@
+policy_type: 'scenic'
+scenario_category: 'scenic'
+
+route_dir: 'safebench/scenario/scenario_data/route'
+scenic_dir: 'safebench/scenario/scenario_data/scenic_data/'
+sample_num: 50
+opt_step: 10
+select_num: 2
+
+method: 'scenic'
+scenario_id: null
+route_id: [0,1,2,3,4,5,6,7,8,9]
+
+ego_action_dim: 2
+ego_state_dim: 4
+ego_action_limit: 1.0
