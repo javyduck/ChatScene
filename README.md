@@ -5,6 +5,8 @@
 
 This repository utilizes [Safebench](https://github.com/trust-ai/SafeBench) and [Scenic](https://github.com/BerkeleyLearnVerify/Scenic), we acknowledge and thank these projects for their contributions!
 
+Check out the <a href="https://javyduck.github.io/chatscene">demo simulations</a>!
+
 **Recommended system: Ubuntu 20.04 or 22.04**
 
 ### 1. Local Installation
