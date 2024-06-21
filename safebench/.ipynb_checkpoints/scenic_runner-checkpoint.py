@@ -485,7 +485,7 @@ class ScenicRunner:
             
             if self.mode == 'train_scenario':
                 ### select hard scenic scenario config on the surrogate model ###
-                self.scene_map = self.load_scene_map()
+                self.scene_map = self.load_scene_map(config.scenario_id)
                 self.agent_policy.set_mode('eval')
                 self.scenario_policy.set_mode('eval')
                 self.eval(data_loader, select = True)
