@@ -427,7 +427,7 @@ class ScenicRunner:
                 self.clean_cache(self.agent_policy.model_path)
                 start_episode = -1
                 
-        elif self.mode == 'eval':
+        elif self.mode == 'eval' and test_epoch:
             ### load trained model for evaluation ###
             self.agent_policy.load_model(episode=test_epoch)
             

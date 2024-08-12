@@ -1,0 +1,5 @@
+The ego vehicle is driving on a straight road when a pedestrian suddenly crosses from the right front and stops as the ego vehicle approaches.
+The ego vehicle is driving on a straight road when a pedestrian suddenly crosses from the left front and stops as the ego vehicle approaches.
+The ego vehicle is driving on a straight road when a pedestrian suddenly crosses from the left front, behind a bench, and stops as the ego vehicle approaches.
+The ego vehicle is driving straight through a four-way intersection when a pedestrian suddenly crosses from the left front on the zebra crossing and stops as the ego vehicle approaches.
+The ego vehicle is driving straight through a four-way intersection when a pedestrian suddenly crosses from the right front and stops as the ego vehicle approaches.

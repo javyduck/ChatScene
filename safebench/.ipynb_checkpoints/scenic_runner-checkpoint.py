@@ -435,7 +435,8 @@ class ScenicRunner:
                 
         elif self.mode == 'eval':
             ### load trained model for evaluation ###
-            self.agent_policy.load_model(episode=test_epoch)
+            if test_epoch:
+                self.agent_policy.load_model(episode=test_epoch)
             
         last_town = None
         for config in config_list:

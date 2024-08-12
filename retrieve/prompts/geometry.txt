@@ -1,0 +1,5 @@
+Now, your task is to help write part of the Scenic code for defining the geometry for the ego agent given the corresponding description. Here are some related description-snippet pairs:
+{content}
+Now, provide the snippet for the following description. Note that if there is already one in the example that matches the description, directly return snippet. Otherwise, please construct the snippet following the same format as above. Please do not use the syntax outside of those used in the examples.
+
+Description: {current_description}

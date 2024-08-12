@@ -2,8 +2,8 @@ policy_type: 'scenic'
 scenario_category: 'scenic'
 
 scenic_dir: 'safebench/scenario/scenario_data/scenic_data/dynamic_scenario/'
-sample_num: 10
-opt_step: 5
+sample_num: 50
+opt_step: 10
 select_num: 2
 
 method: 'scenic'

@@ -1,0 +1,5 @@
+Now, your task is to help write part of the Scenic code for defining the spawn point for the adversarial agent given the corresponding description. Here are some related description-snippet pairs:
+{content}
+Now, provide the snippet for the following description. Note that if there is already a snippet in the example that matches the description, directly return snippet. Otherwise, please construct a new snippet following the format provided above. Note that any hyperparameters should be defined as param OPT_xxx, and use them as globalParameters.OPT_xxx. If there is a blocker involved, you must also define it. The blocker can be chosen only from the following options: 'Car', 'ATM', 'Barrel', 'Barrier', 'Bench', 'BusStop', 'Chair', 'Debris', 'Garbage', 'Mailbox', 'VendingMachine'. Please do not use the syntax outside of those used in the examples.
+
+Description: {current_description}

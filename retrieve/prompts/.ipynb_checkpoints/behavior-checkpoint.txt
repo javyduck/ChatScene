@@ -1,0 +1,5 @@
+Now, your task is to help write part of the Scenic code for defining the adversarial behavior of an agent given the corresponding description. Here are some related description-snippet pairs:
+{content}
+Now, provide the snippet for the following description. Note that if there is already one in the example that matches the description, directly return snippet. Otherwise, please construct the snippet following the same format as above. Note that the name of the behavior function should always be AdvBehavior, and any hyperparameter should be defined as param OPT_xxx, and use it inside the behavior function with globalParameters.OPT_xxx. Please strictly follow the syntax as those used in the examples.
+
+Description: {current_description}
