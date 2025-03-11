@@ -2,7 +2,7 @@ import os
 import openai
 import torch
 import transformers
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'sk-proj-xxx'
 
 class LLMChat():
     def __init__(self, model_name = 'meta-llama/Meta-Llama-3-8B-Instruct'):
