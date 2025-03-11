@@ -1,2 +1,7 @@
-.ipynb_checkpoints
-__pycache__
+# Ignore all Jupyter notebooks
+*.ipynb
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+__pycache__/

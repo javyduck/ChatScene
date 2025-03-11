@@ -1,4 +1,4 @@
-'''The ego vehicle is driving on a straight road; the adversarial pedestrian appears from a driveway on the left and suddenly stop and walk diagonally.'''
+'''The ego vehicle is moving straight through the intersection; the adversarial agent, initially on the left front, runs the red light and makes an abrupt right turn, forcing the ego vehicle to perform a collision avoidance maneuver.'''
 Town = 'Town05'
 param map = localPath(f'../maps/{Town}.xodr') 
 param carla_map = Town
@@ -6,23 +6,29 @@ model scenic.simulators.carla.model
 EGO_MODEL = "vehicle.lincoln.mkz_2017"
 
 behavior AdvBehavior():
-    initialDirection = self.heading
-    while (distance to self) > globalParameters.OPT_ADV_DISTANCE:
-        wait
+    while (distance to self) > 60:
+        wait  # The adversarial vehicle waits until it is within a threatening proximity.
+    do FollowTrajectoryBehavior(globalParameters.OPT_ADV_SPEED, advTrajectory) until (distance from self to egoTrajectory) < globalParameters.OPT_STEER_DISTANCE
+    # Once close to the ego's trajectory, the adversarial vehicle initiates a sharp turn.
     while True:
-        take SetWalkingDirectionAction(initialDirection)
-        take SetWalkingSpeedAction(globalParameters.OPT_ADV_SPEED)
-        for _ in range(globalParameters.OPT_WAIT_STEP_1):
-            wait
-        take SetWalkingSpeedAction(0)  # Stop suddenly
-        for _ in range(globalParameters.OPT_WAIT_STEP_2):
-            wait
+        take SetSpeedAction(self.speed)  # Continues moving at its current speed
+        take SetSteerAction(globalParameters.OPT_STEER)  # Makes an abrupt steering adjustment
 
-param OPT_ADV_SPEED = Range(0, 5)
-param OPT_ADV_DISTANCE = Range(0, 10)
-param OPT_WAIT_STEP_1 = Range(0, 30)  # Wait time in steps for the first direction
-param OPT_WAIT_STEP_2 = Range(0, 30)  # Wait time in steps for the second direction
-intersection = Uniform(*filter(lambda i: i.is4Way and not i.isSignalized, network.intersections))
+param OPT_ADV_SPEED = Range(5, 15)  # The speed at which the adversarial vehicle approaches the intersection.
+param OPT_STEER_DISTANCE = Range(0, 4)  # Distance from ego's trajectory at which the vehicle starts to turn.
+param OPT_STEER = Range(0.5, 1.0)  # Defines the intensity of the steering action.
+
+## MONITORS
+monitor TrafficLights:
+    freezeTrafficLights()
+    while True:
+        if withinDistanceToTrafficLight(ego, 100):
+            setClosestTrafficLightStatus(ego, "green")
+        if withinDistanceToTrafficLight(AdvAgent, 100):
+            setClosestTrafficLightStatus(AdvAgent, "red")
+        wait
+
+intersection = Uniform(*filter(lambda i: i.is4Way and i.isSignalized, network.intersections))
 egoInitLane = Uniform(*intersection.incomingLanes)
 egoManeuver = Uniform(*filter(lambda m: m.type is ManeuverType.STRAIGHT, egoInitLane.maneuvers))
 egoTrajectory = [egoInitLane, egoManeuver.connectingLane, egoManeuver.endLane]
@@ -49,7 +55,7 @@ projectPt = Vector(*advLane.centerline.project(IntSpawnPt.position).coords[0])
 advHeading = advLane.orientation[projectPt]
 
 # Spawn the Adversarial Agent
-AdvAgent = Pedestrian at projectPt,
+AdvAgent = Car at projectPt,
     with heading advHeading,
     with regionContainedIn None,
     with behavior AdvBehavior()

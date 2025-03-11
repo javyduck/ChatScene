@@ -1,4 +1,4 @@
-'''The ego vehicle is driving straight through a four-way intersection when a pedestrian suddenly crosses from the right front and stops as the ego vehicle approaches.'''
+'''The ego vehicle is driving on a straight road; the adversarial pedestrian suddenly appears from behind a parked car on the right front and suddenly stop.'''
 Town = 'Town05'
 param map = localPath(f'../maps/{Town}.xodr') 
 param carla_map = Town
@@ -6,7 +6,7 @@ model scenic.simulators.carla.model
 EGO_MODEL = "vehicle.lincoln.mkz_2017"
 
 behavior AdvBehavior():
-    do CrossingBehavior(ego, globalParameters.OPT_ADV_SPEED, globalParameters.OPT_ADV_DISTANCE) until (distance from self to EgoTrajectory) < globalParameters.OPT_STOP_DISTANCE
+    do CrossingBehavior(ego, globalParameters.OPT_ADV_SPEED, globalParameters.OPT_ADV_DISTANCE) until (distance from self to egoTrajectory) < globalParameters.OPT_STOP_DISTANCE
     while True:
         take SetWalkingSpeedAction(0)
 
@@ -16,29 +16,27 @@ param OPT_STOP_DISTANCE = Range(0, 1)
 intersection = Uniform(*filter(lambda i: i.is4Way and not i.isSignalized, network.intersections))
 egoInitLane = Uniform(*intersection.incomingLanes)
 egoManeuver = Uniform(*filter(lambda m: m.type is ManeuverType.STRAIGHT, egoInitLane.maneuvers))
-EgoTrajectory = [egoInitLane, egoManeuver.connectingLane, egoManeuver.endLane]
-EgoSpawnPt = OrientedPoint in egoManeuver.startLane.centerline
+egoTrajectory = [egoInitLane, egoManeuver.connectingLane, egoManeuver.endLane]
+egoSpawnPt = OrientedPoint in egoManeuver.startLane.centerline
 
 # Setting up the ego vehicle at the initial position
-ego = Car at EgoSpawnPt,
+ego = Car at egoSpawnPt,
     with regionContainedIn None,
     with blueprint EGO_MODEL
 
 require 10 <= (distance to intersection) <= 40
-# Defining adversarial maneuvers as those conflicting with the ego's straight path
-advManeuvers = filter(lambda i: i.type == ManeuverType.RIGHT_TURN, egoManeuver.conflictingManeuvers)
-advManeuver = Uniform(*advManeuvers)
-advTrajectory = [advManeuver.startLane, advManeuver.connectingLane, advManeuver.endLane]
-advSpawnPt = advManeuver.connectingLane.centerline[0]  # Initial point on the connecting lane's centerline
-IntSpawnPt = advManeuver.connectingLane.centerline.start  # Start of the connecting lane centerline
+param OPT_GEO_BLOCKER_X_DISTANCE = Range(-8, -2)  # Negative range for left side
+param OPT_GEO_BLOCKER_Y_DISTANCE = Range(15, 50)
+param OPT_GEO_X_DISTANCE = Range(-2, 2)
+param OPT_GEO_Y_DISTANCE = Range(2, 6)
 
-param OPT_GEO_Y_DISTANCE = Range(-10, 10)
-# Setting up the adversarial agent
-AdvAgent = Pedestrian following roadDirection from IntSpawnPt for globalParameters.OPT_GEO_Y_DISTANCE,
-    with heading IntSpawnPt.heading,
+LeftFrontSpawnPt = OrientedPoint following roadDirection from egoSpawnPt for globalParameters.OPT_GEO_BLOCKER_Y_DISTANCE
+Blocker = Car left of LeftFrontSpawnPt by globalParameters.OPT_GEO_BLOCKER_X_DISTANCE,
+    with heading LeftFrontSpawnPt.heading,
+    with regionContainedIn None
+
+SHIFT = globalParameters.OPT_GEO_X_DISTANCE @ globalParameters.OPT_GEO_Y_DISTANCE
+AdvAgent = Pedestrian at Blocker offset along LeftFrontSpawnPt.heading by SHIFT,
+    with heading LeftFrontSpawnPt.heading - 90 deg,  # Adjusted for spawning from the left
     with regionContainedIn None,
     with behavior AdvBehavior()
-
-# Requirements to ensure the adversarial agent's relative position and trajectory are correctly aligned with the scenario's needs
-require 160 deg <= abs(RelativeHeading(adversary)) <= 180 deg
-require any([AdvAgent.position in traj for traj in [advManeuver.startLane, advManeuver.connectingLane, advManeuver.endLane]])
