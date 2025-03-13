@@ -29,8 +29,10 @@ Step 3: Enter the repo root folder and install the packages:
 ```
 cd ChatScene
 pip install -r requirements.txt
+pip install decorator==5.1.1
 pip install -e .
 ```
+(you can ignore the error after installing the decorator)
 
 Step 4: Install the Scenic package:
 
